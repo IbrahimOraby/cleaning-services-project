@@ -1,0 +1,27 @@
+  @import url("general.css");
+.know-about-us{
+    h2,h4{
+        color: var(--primary-blue);
+        font-weight: bold;
+    }
+    h5{
+        color: var(--secondary-blue);
+    }
+    p{
+        color: var(--main-paragraph);
+        margin-block: 1rem;
+    }
+    i{
+        color: var(--secondary-blue);
+        font-size: 1.5rem;
+        margin-right: 0.2rem;
+        
+    }
+    .semi-paragraph{
+        margin-left: 1rem;
+    }
+
+
+
+
+}
