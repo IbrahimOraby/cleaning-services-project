@@ -1,4 +1,90 @@
-P {
-    color: blueviolet;
-    font-size: 100px;
+.main-content {
+	p,
+	li {
+		color: var(--main-paragraph);
+	}
+
+	h1,
+	h2,
+	h4,
+	h5 {
+		color: var(--primary-blue);
+	}
+
+	i {
+		color: var(--secondary-blue);
+	}
+
+	.service-information {
+		background-color: var(--main-white);
+
+		.service-information-col {
+			background-color: #fff;
+		}
+	}
 }
+
+.service-list {
+	list-style-type: none;
+}
+
+aside {
+	.aside-card {
+		background-color: var(--main-white);
+
+		.aside-card-list {
+			list-style-type: none;
+			li {
+				background-color: #fff;
+				border: 1px solid var(--main-white);
+			}
+		}
+	}
+}
+
+.questions-form-card {
+	.questions-form-control {
+		padding: 1rem;
+		border: 1px solid var(--main-white);
+		width: 100%;
+	}
+}
+
+.yellow-btn {
+	background-color: var(--main-yellow);
+	border: none;
+	padding: 1rem;
+}
+
+.yellow-btn.contact-us-btn {
+	position: absolute;
+	right: 50%;
+	transform: translateX(50%);
+	bottom: 0;
+	z-index: 2;
+	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 6px;
+}
+
+/* Trying to handle icons inside the placeholder */
+
+/* .questions-form-input {
+	position: relative;
+	i {
+		position: absolute;
+		top: 35%;
+		left: 1rem;
+		color: gray;
+	}
+	input {
+		border: none;
+		margin-block: 0.1rem;
+	}
+
+	input:not(:placeholder-shown) + i {
+		display: none;
+	}
+
+	::-webkit-input-placeholder {
+		padding-left: 2rem;
+	}
+} */
