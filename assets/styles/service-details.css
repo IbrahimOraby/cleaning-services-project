@@ -9,23 +9,24 @@
 	h4,
 	h5 {
 		color: var(--primary-blue);
+		font-weight: 700;
 	}
 
 	i {
 		color: var(--secondary-blue);
 	}
-
-	.service-information {
-		background-color: var(--main-white);
-
-		.service-information-col {
-			background-color: #fff;
-		}
-	}
 }
 
-.service-list {
+.experience-service-list {
 	list-style-type: none;
+}
+
+.service-information {
+	background-color: var(--main-white);
+
+	.service-information-col {
+		background-color: #fff;
+	}
 }
 
 aside {
@@ -63,6 +64,11 @@ aside {
 	bottom: 0;
 	z-index: 2;
 	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 6px;
+}
+
+/* general */
+.heading-border-left {
+	border-left: 3.5px var(--secondary-blue) solid;
 }
 
 /* Trying to handle icons inside the placeholder */

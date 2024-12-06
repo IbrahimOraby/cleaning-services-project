@@ -84,11 +84,15 @@ body {
 	color: #ffff;
 }
 
-.head-banner-nav .head-banner-breadcrumb:hover {
+.head-banner-breadcrumb {
+	color: var(--main-white);
+}
+
+.head-banner-breadcrumb:hover {
 	cursor: pointer;
 	color: var(--main-yellow);
 }
 
-.head-banner-nav .head-banner-breadcrumb__current {
+.head-banner-breadcrumb__current {
 	color: var(--main-yellow);
 }
