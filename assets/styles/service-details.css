@@ -1,3 +1,99 @@
+/* experience */
+.experience-service-list {
+	list-style-type: none;
+}
+
+/* service infromation */
+.service-information {
+	background-color: var(--main-white);
+
+	.service-information-col {
+		background-color: #fff;
+	}
+}
+
+/* custom accordion */
+.custom-accordion {
+	.custom-accordion-header {
+		margin: 0;
+		border-block-end: 2px solid #fff;
+	}
+	.custom-accordion-button {
+		border: 0;
+		width: 100%;
+		padding: 1rem;
+		background-color: var(--secondary-blue);
+		color: #fff;
+		font-weight: 500;
+		text-align: left;
+
+		.fa-angle-right {
+			display: none;
+			color: var(--secondary-blue);
+		}
+
+		i {
+			color: #fff;
+			padding-inline-end: 1rem;
+		}
+	}
+
+	/* when collapsed change styles */
+	.custom-accordion-button.collapsed {
+		background-color: var(--main-white);
+		color: inherit;
+
+		.fa-angle-down {
+			display: none;
+		}
+		.fa-angle-right {
+			display: inline;
+		}
+	}
+
+	.custom-accordion-body {
+		margin: 1rem;
+		padding: 1rem;
+		border-inline-start: 3px solid
+			color-mix(in srgb, var(--main-paragraph) 15%, transparent);
+	}
+}
+
+/* aside */
+aside {
+	.aside-card {
+		background-color: var(--main-white);
+
+		.aside-card-list {
+			list-style-type: none;
+			li {
+				background-color: #fff;
+				border: 1px solid var(--main-white);
+			}
+		}
+	}
+}
+
+/* questions-form */
+.questions-form-card {
+	.questions-form-control {
+		padding: 1rem;
+		border: 1px solid var(--main-white);
+		width: 100%;
+	}
+}
+
+/* ad - contact us */
+.yellow-btn.contact-us-btn {
+	position: absolute;
+	right: 50%;
+	transform: translateX(50%);
+	bottom: 0;
+	z-index: 2;
+	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 6px;
+}
+
+/* general */
 .main-content {
 	p,
 	li {
@@ -17,58 +113,14 @@
 	}
 }
 
-.experience-service-list {
-	list-style-type: none;
-}
-
-.service-information {
-	background-color: var(--main-white);
-
-	.service-information-col {
-		background-color: #fff;
-	}
-}
-
-aside {
-	.aside-card {
-		background-color: var(--main-white);
-
-		.aside-card-list {
-			list-style-type: none;
-			li {
-				background-color: #fff;
-				border: 1px solid var(--main-white);
-			}
-		}
-	}
-}
-
-.questions-form-card {
-	.questions-form-control {
-		padding: 1rem;
-		border: 1px solid var(--main-white);
-		width: 100%;
-	}
+.heading-border-inline-start {
+	border-inline-start: 3.5px var(--secondary-blue) solid;
 }
 
 .yellow-btn {
 	background-color: var(--main-yellow);
 	border: none;
 	padding: 1rem;
-}
-
-.yellow-btn.contact-us-btn {
-	position: absolute;
-	right: 50%;
-	transform: translateX(50%);
-	bottom: 0;
-	z-index: 2;
-	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 6px;
-}
-
-/* general */
-.heading-border-left {
-	border-left: 3.5px var(--secondary-blue) solid;
 }
 
 /* Trying to handle icons inside the placeholder */
