@@ -4,11 +4,15 @@
 }
 
 /* service infromation */
-.service-information {
+.service-info {
 	background-color: var(--main-white);
 
-	.service-information-col {
+	.service-info-col {
 		background-color: #fff;
+
+		div:first-child {
+			color: var(--main-paragraph);
+		}
 	}
 }
 
