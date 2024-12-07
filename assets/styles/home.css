@@ -302,7 +302,6 @@ body {
 
 /* Read More Section */
 .read-more {
-    height: 50vh;
     display: flex;
     overflow: hidden;
     background: linear-gradient(to left, #f7fbfe, #d4e1f5);
@@ -351,6 +350,20 @@ body {
         }
     }
 
+    .read-more {
+        .text {
+            h1 {
+                font-size: 0.8rem
+            }
+
+            .Quote {
+                a {
+                    font-size: 0.4rem;
+                }
+            }
+        }
+    }
+
 }
 
 /* Responsive layout for medium screens (tablet) */
@@ -376,6 +389,20 @@ body {
     .requsting-estimate-section {
         .form {
             width: 100% !important;
+        }
+    }
+
+    .read-more {
+        .text {
+            h1 {
+                font-size: 2rem
+            }
+
+            .Quote {
+                a {
+                    font-size: 0.6rem;
+                }
+            }
         }
     }
 }
