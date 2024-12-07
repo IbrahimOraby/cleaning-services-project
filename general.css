@@ -55,8 +55,9 @@ select {
 }
 
 .heading {
-	font-size: 4rem;
-	font-weight: 700;
+    font-size: 4rem;
+    font-weight: 700;
+    color: var(--main-white);
 }
 
 .sub-heading {
