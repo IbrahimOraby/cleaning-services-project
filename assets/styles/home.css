@@ -1,4 +1,381 @@
-p {
-    font-size: larger;
-    color: red;
+@import url(../../general.css);
+
+html,
+body {
+    overflow-x: hidden;
+}
+
+.carousel {
+    .img-bubble {
+        top: -35px;
+        position: relative;
+        z-index: 10;
+    }
+}
+
+.Quote {
+    background-color: var(--main-yellow);
+    border-radius: 0;
+    color: var(--primary-blue);
+}
+
+.Quote:hover {
+    color: black;
+    background-color: #fff200;
+}
+
+.bg-main {
+    background-color: var(--primary-blue);
+    color: var(--main-white);
+}
+
+.active {
+    font-weight: 600;
+    color: var(--primary-blue) !important;
+}
+
+/* Slider Section */
+.carousel-caption {
+    right: 0;
+    bottom: 16.25rem;
+}
+
+.arrow {
+    background-color: white;
+    border-radius: 50%;
+    max-width: 35px;
+}
+
+.carousel-image-container {
+    position: relative;
+}
+
+.overlaying {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.carousel-caption {
+    z-index: 2;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    z-index: 10;
+}
+
+.Colors {
+    .first-p {
+        color: var(--secondary-blue);
+    }
+
+    .heading {
+        color: var(--primary-blue);
+        margin: 0.3em 0;
+    }
+
+    .second-p {
+        color: var(--main-white);
+        margin-bottom: 0.5em;
+    }
+
+    .Quote {
+        margin: 0.5em 0;
+    }
+}
+
+/* Booking Services Section */
+.booking {
+    background-color: azure;
+    padding: 3.5rem 0;
+    margin-bottom: 3em;
+
+    .images {
+        position: relative;
+
+        .image-1,
+        .image-2 {
+            border-radius: 1rem;
+            background-color: var(--main-gray);
+            position: absolute;
+            border: 20px solid var(--main-white);
+            max-width: 400px;
+        }
+
+        .image-1 {
+            left: 100px;
+            top: 150px;
+            transform: rotate(-10deg);
+            z-index: 1;
+        }
+
+        .image-2 {
+            transform: rotate(10deg);
+        }
+    }
+
+    .content {
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+            color: var(--primary-blue);
+            font-weight: 700;
+        }
+
+        h2 {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+            color: var(--secondary-blue);
+            font-weight: 500;
+        }
+
+        p {
+            margin-left: 1em;
+        }
+
+        ul {
+            li {
+                font-weight: bold;
+                margin: 1em;
+
+                i {
+                    color: var(--primary-blue);
+                    font-size: 1.2rem;
+                }
+            }
+        }
+    }
+
+    .calls {
+        padding-top: 1em;
+
+        a {
+            margin-left: 1em;
+        }
+
+        .number {
+            color: var(--primary-blue);
+            font-size: 1.5rem;
+        }
+    }
+}
+
+/* Cleaning Services Section */
+.cleaning-services {
+    background-image: url(../images/bg-shape1.png);
+    background-size: cover;
+    margin: 5rem 0 0 0;
+
+    .container {
+        .text {
+            max-width: 700px;
+            margin: 3rem auto;
+
+            img {
+                max-width: 40px;
+            }
+
+            h1 {
+                color: var(--primary-blue);
+            }
+        }
+
+        .row {
+            .card-body {
+                position: relative;
+
+                .bg-icon {
+                    position: absolute;
+                    background-color: var(--primary-blue);
+                    top: -30px;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    min-width: 50px;
+                    height: 50px;
+                    border-radius: 50%;
+
+                    i {
+                        color: var(--main-white);
+                        font-size: 2rem;
+                        padding: 10px
+                    }
+                }
+
+                .card-title {
+                    color: var(--primary-blue);
+                }
+
+                ul {
+                    li {
+                        font-weight: bold;
+                        margin: 1em;
+
+                        i {
+                            color: var(--primary-blue);
+                            font-size: 1.2rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* Estimation Section */
+.estimate-section {
+    background-color: var(--primary-blue);
+    color: var(--main-white);
+    position: relative;
+
+    .heading {
+        font-size: 3rem;
+    }
+
+    .img-bubble {
+        position: absolute;
+        bottom: 0;
+    }
+}
+
+/* Requsting An Estimate Section */
+.requsting-estimate-section {
+    margin-bottom: 4rem;
+
+    .content {
+        .header {
+            color: var(--primary-blue);
+            font-size: 2.8rem;
+        }
+
+        .list {
+            ul {
+                li {
+                    .sub-heading {
+                        color: var(--primary-blue);
+                        font-size: 1.5rem;
+
+                        .fa-check {
+                            font-size: 1.2rem;
+                            color: var(--secondary-blue);
+                            border: 4px solid var(--secondary-blue);
+                            border-radius: 50%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .form {
+        background-color: var(--secondary-blue);
+        border-radius: 5px;
+
+        .sub-heading {
+            color: var(--main-white);
+        }
+
+        .two-input-at-row {
+            display: flex;
+            gap: 0.2rem;
+            /* Add gap between input fields */
+
+            .form-control {
+                max-width: 80%;
+                /* Limit max width of the inputs */
+                margin: auto 3px;
+                /* Optional: Space between inputs */
+            }
+        }
+    }
+}
+
+/* Read More Section */
+.read-more {
+    height: 50vh;
+    display: flex;
+    overflow: hidden;
+    background: linear-gradient(to left, #f7fbfe, #d4e1f5);
+}
+
+.read-more .image,
+.read-more .text {
+    width: 50%;
+}
+
+.read-more .text h1 {
+    color: var(--primary-blue);
+    font-size: 4rem;
+    padding: 0 2em 0 0;
+}
+
+.read-more .image img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
+
+/* Responsive layout for small screens (mobile) */
+@media (max-width: 450px) {
+
+    /* Slider */
+    .carousel-caption .sub-heading {
+        font-size: 0.5rem;
+    }
+
+    .carousel-caption .heading {
+        font-size: 1rem;
+    }
+
+    .carousel-caption .second-p {
+        font-size: 0.4rem;
+    }
+
+    .carousel-caption .Quote {
+        font-size: 0.4rem;
+    }
+
+    .requsting-estimate-section {
+        .form {
+            width: 100% !important;
+        }
+    }
+
+}
+
+/* Responsive layout for medium screens (tablet) */
+@media (min-width: 451px) and (max-width: 820px) {
+
+    /* Slider */
+    .carousel-caption .sub-heading {
+        font-size: 1.2rem;
+    }
+
+    .carousel-caption .heading {
+        font-size: 1.8rem;
+    }
+
+    .carousel-caption .second-p {
+        font-size: 0.8rem;
+    }
+
+    .carousel-caption .Quote {
+        font-size: 0.8rem;
+    }
+
+    .requsting-estimate-section {
+        .form {
+            width: 100% !important;
+        }
+    }
 }
