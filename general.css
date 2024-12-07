@@ -1,0 +1,80 @@
+:root {
+    --primary-blue: #14287B;
+    --secondary-blue: #2880FB;
+    --main-yellow: #FEF22E;
+    --main-white: #F8F8F8;
+    --main-gray: #D7D6D0;
+    --main-paragraph: #646464;
+}
+
+* {
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+
+/* ------------------- */
+/* reset    */
+/* ------------------- */
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+    font-weight: 400;
+}
+
+input,
+button,
+textarea,
+select {
+    font-family: inherit;
+}
+
+/* ------------------- */
+/* Utility classes     */
+/* ------------------- */
+
+.flex {
+    display: flex;
+}
+
+.grid {
+    display: grid;
+}
+
+.heading {
+    font-size: 4rem;
+    font-weight: 700;
+    color: var(--main-white);
+}
+
+.sub-heading {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.regular-paragraph {
+    color: var(--main-paragraph);
+}
+
+/* ------------------- */
+/* general   */
+/* ------------------- */
+
+body {
+    font-family: "Inter", sans-serif;
+    min-height: 100vh;
+}
