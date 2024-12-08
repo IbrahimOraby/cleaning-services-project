@@ -1,3 +1,14 @@
+@import url(../styles/home.css);
+
+/* service details post */
+.service-details-post {
+	i {
+		padding: 0.25rem;
+		border: 3px solid var(--secondary-blue);
+		border-radius: 50%;
+	}
+}
+
 /* experience */
 .experience-service-list {
 	list-style-type: none;
@@ -7,11 +18,14 @@
 .service-info {
 	background-color: var(--main-white);
 
-	.service-info-col {
-		background-color: #fff;
+	.service-info-row {
+		div {
+			border: 0.6rem solid var(--main-white);
+			background-color: #fff;
 
-		div:first-child {
-			color: var(--main-paragraph);
+			span:first-child {
+				color: var(--main-paragraph);
+			}
 		}
 	}
 }
@@ -78,12 +92,43 @@ aside {
 	}
 }
 
+/* categories */
+.categories-card {
+	i {
+		color: var(--main-paragraph) !important;
+		padding-inline-start: 3.5px;
+		padding-inline-end: 1rem;
+	}
+}
+
 /* questions-form */
 .questions-form-card {
 	.questions-form-control {
 		padding: 1rem;
 		border: 1px solid var(--main-white);
 		width: 100%;
+	}
+}
+
+/* download  */
+.download-card {
+	.aside-card-list {
+		i {
+			padding-inline-start: 3.5px;
+			padding-inline-end: 1rem;
+		}
+
+		.fa-file-pdf {
+			color: #d42a13;
+		}
+
+		.fa-file-word {
+			color: var(--secondary-blue);
+		}
+
+		.fa-youtube {
+			color: #ff0000;
+		}
 	}
 }
 
@@ -141,8 +186,14 @@ aside {
 .yellow-btn {
 	background-color: var(--main-yellow);
 	border: none;
+	border-radius: 0.2rem;
 	padding: 1rem;
 	width: 100%;
+
+	&&:hover {
+		background-color: var(--secondary-blue);
+		color: #fff;
+	}
 }
 
 /* Trying to handle icons inside the placeholder */
