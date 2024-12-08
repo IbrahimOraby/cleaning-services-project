@@ -1,30 +1,800 @@
 <!DOCTYPE html>
 <html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Mukta+Mahee:wght@200;300;400;500;600;700;800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			rel="stylesheet"
+			href="../assets/libs/bootstrap/css/bootstrap.min.css"
+		/>
+		<link rel="stylesheet" href="../assets/libs/font-awesome/css/all.min.css" />
+		<link rel="stylesheet" href="../general.css" />
+		<link rel="stylesheet" href="../assets/styles/service-details.css" />
+		<title>Service Details</title>
+	</head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Mukta+Mahee:wght@200;300;400;500;600;700;800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="../assets/libs/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="../assets/libs/font-awesome/css/all.min.css">
-    <link rel="stylesheet" href="../general.css">
-    <link rel="stylesheet" href="../assets/styles/service-details.css">
-    <title>Service Details</title>
-</head>
+	<body>
+		<!-- Header Section -->
+		<div class="bg-main text-white d-none d-md-flex">
+			<div class="container d-flex justify-content-between align-items-center">
+				<!-- Social Icons -->
+				<div class="">
+					<a href="#"><i class="p-1 text-white fa-brands fa-facebook-f"></i></a>
+					<a href="#"><i class="p-1 text-white fa-brands fa-twitter"></i></a>
+					<a href="#"
+						><i class="p-1 text-white fa-brands fa-google-plus-g"></i
+					></a>
+					<a href="#"><i class="p-1 text-white fa-brands fa-pinterest"></i></a>
+					<a href="#"><i class="p-1 text-white fa-brands fa-snapchat"></i></a>
+					<!-- Date -->
+					<span class="m-3">
+						<i class="text-white p-1 fa-regular fa-clock"></i> Mon - Fri:
+						09.00am - 10.00pm
+					</span>
+				</div>
+				<!-- Get A Quote Button -->
+				<a href="#" class="Quote btn d-flex align-items-center fw-bold"
+					><i class="p-2 fa-solid fa-bell"></i> Get A Quote</a
+				>
+			</div>
+		</div>
 
-<body>
+		<!-- Navbar Section -->
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			<div class="container">
+				<!-- Logo -->
+				<a class="navbar-brand" href="#">
+					<img
+						src="../assets/images/logo-dark.png"
+						alt="Logo"
+						class="d-inline-block align-text-top"
+					/>
+				</a>
 
+				<!-- Navbar Toggler (Burger Icon) -->
+				<button
+					class="navbar-toggler"
+					type="button"
+					data-bs-toggle="collapse"
+					data-bs-target="#navbarNav"
+					aria-controls="navbarNav"
+					aria-expanded="false"
+					aria-label="Toggle navigation"
+				>
+					<span class="navbar-toggler-icon"></span>
+				</button>
 
-    <p>Ahmed Amin</p>
+				<!-- Collapsible Menu -->
+				<div
+					class="collapse navbar-collapse justify-content-center text-center"
+					id="navbarNav"
+				>
+					<!-- Centered Navigation Links -->
+					<ul class="navbar-nav">
+						<li class="nav-item">
+							<a class="active nav-link" aria-current="page" href="../">Home</a>
+						</li>
+						<li class="main-color nav-item">
+							<a class="nav-link main-color" href="../pages/about.html"
+								>About</a
+							>
+						</li>
+						<li class="main-color nav-item">
+							<a class="nav-link main-color" href="../pages/services.html"
+								>Services</a
+							>
+						</li>
+						<li class="main-color nav-item">
+							<a class="nav-link main-color" href="../pages/blog.html">Blog</a>
+						</li>
+						<li class="main-color nav-item">
+							<a class="nav-link main-color" href="../pages/contact.html"
+								>Contact</a
+							>
+						</li>
+					</ul>
+				</div>
 
+				<!-- Quick Contact -->
+				<div class="d-none d-lg-flex align-items-center">
+					<!-- Phone Icon -->
+					<div class="me-2">
+						<i class="fs-3 fa-solid fa-phone"></i>
+					</div>
 
-    <script src="../assets/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="../assets/libs/bootstrap/js/popper.min.js"></script>
-    <script type="module" src="../assets/javaScript/service-details.js"></script>
-</body>
+					<!-- Contact Text -->
+					<div class="d-flex flex-column">
+						<span class="me-2">Quick Contact:</span>
+						<span class="fw-bold">+985 8844 000</span>
+					</div>
+				</div>
+			</div>
+		</nav>
 
+		<!-- banner -->
+		<header class="head-banner text-center py-5">
+			<div class="container py-5">
+				<h1 class="pb-3 head-banner-header">Kitchen Cleaning Service</h1>
+				<div class="pb-3">
+					<span class="head-banner-breadcrumb"
+						><a href="../index.html">Home</a></span
+					>
+					<span>
+						<i class="fa fa-angle-double-right"> </i>
+					</span>
+					<span class="head-banner-breadcrumb"
+						><a href="../pages/services.html">Services</a></span
+					>
+					<span>
+						<i class="fa fa-angle-double-right"> </i>
+					</span>
+					<span class="head-banner-breadcrumb__current">
+						<a href="./service-details.html">Kitchen Cleaning</a>
+					</span>
+				</div>
+			</div>
+		</header>
+
+		<!-- main-content -->
+		<main class="main-content my-5">
+			<div class="container py-5">
+				<div class="row">
+					<!-- left-panel-content -->
+					<div class="col-lg-8">
+						<!-- service details post -->
+						<section class="service-details-post">
+							<img
+								src="../assets/images/kitchen-1.jpg"
+								alt="blog-header-picture"
+								class="service-details-img mb-4 rounded-2 img-fluid"
+							/>
+							<h2 class="mb-4 service-details-post-title sub-heading">
+								Kitchen Cleaning Service
+							</h2>
+							<p>
+								Ahen an unknown printer took a galley of type and scrambled it
+								to make a type specimen book arelt hasear survived not only five
+								centuries, but also the leap into electronic typesetting,
+								remaining essential yellow aw unchangedh the release of Letraset
+								sheets containing and more recently with desktop.Ahen an unknown
+								printer took a galley of type and scrambled it to make a type.
+							</p>
+							<div class="row py-4">
+								<div class="col-lg-6 d-flex flex-row gap-4 mb-4 mb-lg-0">
+									<span> <i class="fa fa-check"></i></span>
+									<span>
+										<h5 class="mb-4">Quality We Ensure</h5>
+										<p>
+											Aorem ipsum dolor sit amet consectetur adipiscing elit sed
+											doeiusmod tempor incididunt ut labore et dolore.
+										</p>
+									</span>
+								</div>
+								<div class="col-lg-6 d-flex flex-row gap-4">
+									<span> <i class="fa fa-check"></i></span>
+									<span>
+										<h5 class="mb-4">Experienced Workers</h5>
+										<p>
+											Aorem ipsum dolor sit amet consectetur adipiscing elit sed
+											doeiusmod tempor incididunt ut labore et dolore.
+										</p>
+									</span>
+								</div>
+							</div>
+							<p class="pb-5">
+								Ahen an unknown printer took a galley of type and scrambled it
+								to make a type specimen book arelt hasear survived not only five
+								centuries, but also the leap into electronic typesetting,
+								remaining essentiall yellow aw unchangedh the release o type.
+								Ahen an unknown printer took a galley of type and scrambled it
+								to make a type specimen book arelt hasear survived not only five
+								centuries.
+							</p>
+						</section>
+						<section>
+							<!-- experienced people -->
+							<div class="row">
+								<div class="col-lg-6">
+									<img
+										src="../assets/images/service-1.jpg"
+										alt="experience-picture"
+										class="img-fluid rounded-2 mb-4 mb-lg-0"
+									/>
+								</div>
+								<div class="col-lg-6">
+									<h4 class="pb-4">Experienced People can help you more</h4>
+									<p class="pb-4">
+										Ahen an unknown printer took a galley of type andty
+										scrambled it to make a type specimen book arelter hasear
+										survived not only five centuries, but also the leap into
+										electronic type.
+									</p>
+									<ul class="experience-service-list list-group">
+										<li class="pb-3">
+											<i class="fas fa-check pe-2"></i>
+											<span>Gas Silendar Clean</span>
+										</li>
+										<li class="pb-3">
+											<i class="fas fa-check pe-2"></i>
+											<span>Frozen Pipe Clean</span>
+										</li>
+										<li class="pb-3">
+											<i class="fas fa-check pe-2"></i>
+											<span>Water Pipe Clean</span>
+										</li>
+										<li class="pb-3">
+											<i class="fas fa-check pe-2"></i>
+											<span>Toilet Clean</span>
+										</li>
+										<li class="pb-3">
+											<i class="fas fa-check pe-2"></i>
+											<span>Toilet Clean</span>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</section>
+						<!-- service information -->
+						<section class="service-info p-5 my-5 rounded-2 row mx-1 mx-sm-0">
+							<h5 class="col-12 heading-border-inline-start ps-3 mb-4">
+								Service Information
+							</h5>
+							<div class="col-12 row service-info-row">
+								<div class="col-lg-4 col-md-6 col-12 d-flex flex-column p-4">
+									<span class="mb-2">Price :</span><span>$150.00</span>
+								</div>
+								<div class="col-lg-4 col-md-6 col-12 d-flex flex-column p-4">
+									<span class="mb-2">Cleaning Hours :</span
+									><span>1-3 Hours</span>
+								</div>
+								<div class="col-lg-4 col-md-6 col-12 d-flex flex-column p-4">
+									<span class="mb-2">Number of Cleaners :</span
+									><span>02 Cleaner</span>
+								</div>
+								<div class="col-lg-4 col-md-6 col-12 d-flex flex-column p-4">
+									<span class="mb-2">Visiting Hours :</span
+									><span>09.00am - 06.00pm</span>
+								</div>
+								<div class="col-lg-4 col-md-6 col-12 d-flex flex-column p-4">
+									<span class="mb-2">Contact :</span><span>+88 9504200</span>
+								</div>
+								<div class="col-lg-4 col-md-6 col-12 d-flex flex-column p-4">
+									<span class="mb-2">E-mail :</span><span>info@clenix.com</span>
+								</div>
+							</div>
+						</section>
+
+						<!-- FAQ -->
+						<section class="faq mb-lg-0 mb-5">
+							<h5 class="faq-title mb-4">Frequently Asked Questions</h5>
+							<p>
+								Ahen an unknown printer took a galley of type and scrambled it
+								to make a type specimen book arelt hasear survived not only five
+								centuries, but also the leap into electronic typesetting,
+								remaining essentiall yellow aw unchangedh the release o
+								type.Ahen an unknown printer took a galley of type scram.
+							</p>
+							<!-- custom-accordion -->
+							<div class="custom-accordion mt-4" id="custom-accordionExample">
+								<div class="custom-accordion-item">
+									<h6 class="custom-accordion-header">
+										<button
+											class="custom-accordion-button rounded-2"
+											type="button"
+											data-bs-toggle="collapse"
+											data-bs-target="#collapseOne"
+											aria-expanded="true"
+											aria-controls="collapseOne"
+										>
+											<i class="fa-solid fa-angle-right"></i>
+											<i class="fa-solid fa-angle-down"></i>
+
+											Modern Equipment We Use
+										</button>
+									</h6>
+									<div
+										id="collapseOne"
+										class="custom-accordion-collapse collapse show"
+										data-bs-parent="#custom-accordionExample"
+									>
+										<div class="custom-accordion-body">
+											<p>
+												Ahen an unknown printer took a galley of type and
+												scrambled it to make a type specimen book arelt hasear
+												survived not only five centuries, but also the leap into
+												electronic typesetting, remaining essentiall yellow aw
+												unchangedh.
+											</p>
+										</div>
+									</div>
+								</div>
+								<div class="custom-accordion-item">
+									<h6 class="custom-accordion-header">
+										<button
+											class="custom-accordion-button rounded-2 collapsed"
+											type="button"
+											data-bs-toggle="collapse"
+											data-bs-target="#collapseTwo"
+											aria-expanded="false"
+											aria-controls="collapseTwo"
+										>
+											<i class="fa-solid fa-angle-right"></i>
+											<i class="fa-solid fa-angle-down"></i>
+
+											Qualified Workers
+										</button>
+									</h6>
+									<div
+										id="collapseTwo"
+										class="custom-accordion-collapse collapse"
+										data-bs-parent="#custom-accordionExample"
+									>
+										<div class="custom-accordion-body">
+											<p>
+												Ahen an unknown printer took a galley of type and
+												scrambled it to make a type specimen book arelt hasear
+												survived not only five centuries, but also the leap into
+												electronic typesetting, remaining essentiall yellow aw
+												unchangedh.
+											</p>
+										</div>
+									</div>
+								</div>
+								<div class="custom-accordion-item">
+									<h6 class="custom-accordion-header">
+										<button
+											class="custom-accordion-button rounded-2 collapsed"
+											type="button"
+											data-bs-toggle="collapse"
+											data-bs-target="#collapseThree"
+											aria-expanded="false"
+											aria-controls="collapseThree"
+										>
+											<i class="fa-solid fa-angle-right"></i>
+											<i class="fa-solid fa-angle-down"></i>
+											Modern Equipment We Use
+										</button>
+									</h6>
+									<div
+										id="collapseThree"
+										class="custom-accordion-collapse collapse"
+										data-bs-parent="#custom-accordionExample"
+									>
+										<div class="custom-accordion-body">
+											<p>
+												Ahen an unknown printer took a galley of type and
+												scrambled it to make a type specimen book arelt hasear
+												survived not only five centuries, but also the leap into
+												electronic typesetting, remaining essentiall yellow aw
+												unchangedh.
+											</p>
+										</div>
+									</div>
+								</div>
+								<div class="custom-accordion-item">
+									<h6 class="custom-accordion-header">
+										<button
+											class="custom-accordion-button rounded-2 collapsed"
+											type="button"
+											data-bs-toggle="collapse"
+											data-bs-target="#collapseFour"
+											aria-expanded="false"
+											aria-controls="collapseFour"
+										>
+											<i class="fa-solid fa-angle-right"></i>
+											<i class="fa-solid fa-angle-down"></i>
+											Modern Equipment We Use
+										</button>
+									</h6>
+									<div
+										id="collapseFour"
+										class="custom-accordion-collapse collapse"
+										data-bs-parent="#custom-accordionExample"
+									>
+										<div class="custom-accordion-body">
+											<p>
+												Ahen an unknown printer took a galley of type and
+												scrambled it to make a type specimen book arelt hasear
+												survived not only five centuries, but also the leap into
+												electronic typesetting, remaining essentiall yellow aw
+												unchangedh.
+											</p>
+										</div>
+									</div>
+								</div>
+								<div class="custom-accordion-item">
+									<h6 class="custom-accordion-header">
+										<button
+											class="custom-accordion-button rounded-2 collapsed"
+											type="button"
+											data-bs-toggle="collapse"
+											data-bs-target="#collapseFive"
+											aria-expanded="false"
+											aria-controls="collapseFive"
+										>
+											<i class="fa-solid fa-angle-right"></i>
+											<i class="fa-solid fa-angle-down"></i>
+											Modern Equipment We Use
+										</button>
+									</h6>
+									<div
+										id="collapseFive"
+										class="custom-accordion-collapse collapse"
+										data-bs-parent="#custom-accordionExample"
+									>
+										<div class="custom-accordion-body">
+											<p>
+												Ahen an unknown printer took a galley of type and
+												scrambled it to make a type specimen book arelt hasear
+												survived not only five centuries, but also the leap into
+												electronic typesetting, remaining essentiall yellow aw
+												unchangedh.
+											</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</section>
+					</div>
+					<!-- right-panel -->
+					<!-- aside -->
+					<div class="col-lg-4">
+						<aside>
+							<!-- categories -->
+							<div class="categories-card aside-card p-5 mb-5 rounded-2">
+								<h5
+									class="aside-card-title heading-border-inline-start ps-3 mb-4"
+								>
+									Categories
+								</h5>
+								<ul class="aside-card-list list-group">
+									<li class="p-3 rounded-1 d-flex">
+										<span><i class="fa-solid fa-angle-right"></i></span
+										><span><p>Office Cleaning</p></span>
+									</li>
+									<li class="p-3 rounded-1 d-flex">
+										<span> <i class="fa-solid fa-angle-right"></i> </span
+										><span><p>Kitchen Cleaning</p></span>
+									</li>
+									<li class="p-3 rounded-1 d-flex">
+										<span><i class="fa-solid fa-angle-right"></i></span
+										><span><p>Bathroom Cleaning</p></span>
+									</li>
+									<li class="p-3 rounded-1 d-flex">
+										<span><i class="fa-solid fa-angle-right"></i></span
+										><span><p>Window Cleaning</p></span>
+									</li>
+									<li class="p-3 rounded-1 d-flex">
+										<span><i class="fa-solid fa-angle-right"></i></span
+										><span><p>Bedroom Cleaning</p></span>
+									</li>
+									<li class="p-3 rounded-1 d-flex">
+										<span><i class="fa-solid fa-angle-right"></i></span
+										><span><p>Car Wash</p></span>
+									</li>
+									<li class="p-3 rounded-1 d-flex">
+										<span><i class="fa-solid fa-angle-right"></i></span
+										><span><p>Carpet Cleaning</p></span>
+									</li>
+									<li class="p-3 rounded-1 d-flex">
+										<span><i class="fa-solid fa-angle-right"></i></span
+										><span><p>Floor Cleaning</p></span>
+									</li>
+								</ul>
+							</div>
+
+							<!-- download -->
+							<div class="download-card aside-card p-5 mb-5 rounded-2">
+								<h5
+									class="aside-card-title heading-border-inline-start ps-3 mb-4"
+								>
+									Download Now
+								</h5>
+								<ul class="aside-card-list list-group">
+									<li class="p-3 rounded-1 d-flex">
+										<span><i class="fa-solid fa-file-pdf"></i></span
+										><span><p>Download Pdf file</p></span>
+									</li>
+									<li class="p-3 rounded-1 d-flex">
+										<span><i class="fa-solid fa-file-word"></i></span
+										><span><p>Download Doc file</p></span>
+									</li>
+									<li class="p-3 rounded-1 d-flex">
+										<span><i class="fa-brands fa-youtube"></i></span
+										><span><p>Video Download</p></span>
+									</li>
+								</ul>
+							</div>
+
+							<!-- questions form -->
+							<div class="questions-form-card aside-card p-5 mb-5 rounded-2">
+								<h5
+									class="aside-card-title heading-border-inline-start ps-3 mb-4"
+								>
+									Have You Any Questions?
+								</h5>
+								<form class="d-flex flex-column">
+									<div class="questions-form-input">
+										<!-- <i class="fa-solid fa-user"></i> -->
+										<input
+											type="text"
+											name="name"
+											placeholder="Name"
+											class="questions-form-control rounded-1"
+										/>
+									</div>
+
+									<div class="questions-form-input">
+										<!-- <i class="fa-regular fa-envelope"></i> -->
+										<input
+											type="email"
+											name="email-address"
+											placeholder="E-mail Address"
+											class="questions-form-control rounded-1"
+										/>
+									</div>
+
+									<div class="questions-form-input">
+										<!-- <i class="fa-solid fa-phone"></i> -->
+										<input
+											type="text"
+											name="phone"
+											placeholder="Phone"
+											class="questions-form-control rounded-1"
+										/>
+									</div>
+
+									<div class="questions-form-input">
+										<!-- <i class="fa-solid fa-question"></i> -->
+										<input
+											type="text"
+											name="subject"
+											placeholder="Subject"
+											class="questions-form-control rounded-1"
+										/>
+									</div>
+
+									<div class="questions-form-input d-flex">
+										<!-- <i class="fa-regular fa-comments"></i> -->
+										<textarea
+											type="text"
+											name="address"
+											placeholder="Address"
+											class="questions-form-control rounded-1"
+										></textarea>
+									</div>
+									<button class="yellow-btn fw-medium" type="submit">
+										Send Message
+									</button>
+								</form>
+							</div>
+
+							<!-- discount ad -->
+							<div class="discount-ad d-flex flex-column">
+								<img
+									src="../assets/images/read-more.webp"
+									alt="ad-picture"
+									class="rounded-top-2"
+								/>
+								<div
+									class="offer-section d-flex flex-column align-items-center px-5 pt-2 pb-5 rounded-bottom-2"
+								>
+									<h3 class="offer-section-title d-flex flex-column mb-4">
+										<span class="offer-discount"
+											><strong>30</strong>% Discount</span
+										>
+										<span class="offer-duration">Promotion Offer 16 Days</span>
+									</h3>
+									<button class="yellow-btn fw-medium contact-us-btn">
+										Contact With Us
+									</button>
+								</div>
+							</div>
+						</aside>
+					</div>
+				</div>
+			</div>
+		</main>
+
+		<!-- Footer  -->
+
+		<footer class="footer position-relative p-4">
+			<img
+				src="../assets/images/figure1.png"
+				alt="figure1_footer"
+				class="position-absolute top-0"
+			/>
+			<img
+				src="../assets/images/figure2.png"
+				alt="figure2_footer"
+				class="position-absolute bottom-0"
+			/>
+			<div class="container py-3">
+				<div class="row position-relative">
+					<!-- Features -->
+					<div
+						class="col-12 col-sm-6 col-lg-4 col-xl-3 text-center text-sm-start"
+					>
+						<div class="features">
+							<h3 class="footer_h3_style">FEATURES</h3>
+							<ul class="footer-list mt-4 list-unstyled">
+								<li class="mt-3">
+									<a class="text-decoration-none" href="#"
+										>Residential Services</a
+									>
+								</li>
+								<li class="mt-3">
+									<a class="text-decoration-none" href="#"
+										>Commercial Services</a
+									>
+								</li>
+								<li class="mt-3">
+									<a class="text-decoration-none" href="#">Vechile Wash</a>
+								</li>
+								<li class="mt-3">
+									<a class="text-decoration-none" href="#">Londry Facilities</a>
+								</li>
+								<li class="mt-3">
+									<a class="text-decoration-none" href="#">Carpet Removal</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+
+					<!-- Company -->
+					<div
+						class="col-12 col-sm-6 col-lg-4 col-xl-3 mt-5 mt-sm-0 text-center text-sm-start"
+					>
+						<div class="company">
+							<h3 class="footer_h3_style">COMPANY</h3>
+							<ul class="footer-list mt-4 list-unstyled">
+								<li class="mt-3">
+									<a class="text-decoration-none" href="#">About Us</a>
+								</li>
+								<li class="mt-3">
+									<a class="text-decoration-none" href="#">Testimonials</a>
+								</li>
+								<li class="mt-3">
+									<a class="text-decoration-none" href="#">Terms</a>
+								</li>
+								<li class="mt-3">
+									<a class="text-decoration-none" href="#">Media Kit</a>
+								</li>
+								<li class="mt-3">
+									<a class="text-decoration-none" href="#">Sitemap</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<!-- Quick Links -->
+					<div
+						class="col-12 col-sm-6 col-lg-4 col-xl-3 mt-5 mt-lg-0 text-center text-sm-start"
+					>
+						<div class="quick_Links">
+							<h3 class="footer_h3_style">Quick Links</h3>
+							<ul class="footer-list mt-4 list-unstyled">
+								<li class="mt-3">
+									<a class="text-decoration-none" href="#">Features</a>
+								</li>
+								<li class="mt-3">
+									<a class="text-decoration-none" href="#">Pricing</a>
+								</li>
+								<li class="mt-3">
+									<a class="text-decoration-none" href="#">Partners</a>
+								</li>
+								<li class="mt-3">
+									<a class="text-decoration-none" href="#"
+										>Cloud Affiliate Program</a
+									>
+								</li>
+							</ul>
+						</div>
+					</div>
+
+					<!-- Affiliates -->
+					<div
+						class="col-12 col-sm-6 col-lg-4 col-xl-3 mt-5 mt-xl-0 text-center text-sm-start"
+					>
+						<div class="affiliates">
+							<h3 class="footer_h3_style">AFFILIATES</h3>
+							<ul class="footer-list mt-4 list-unstyled">
+								<li class="mt-3">
+									<a class="text-decoration-none" href="#"
+										>Become An Affiliate</a
+									>
+								</li>
+								<li class="mt-3">
+									<a class="text-decoration-none" href="#">Affiliate</a>
+								</li>
+							</ul>
+							<a
+								class="fw-medium mt-5 py-3 px-3 d-block text-white text-decoration-none"
+								href=""
+								><i class="fa-regular fa-envelope mx-2"></i> HAVE ANY
+								QUESTION</a
+							>
+						</div>
+					</div>
+				</div>
+
+				<div
+					class="position-relative py-3 mt-5 mb-5 d-flex align-items-center justify-content-lg-between flex-lg-row flex-column"
+				>
+					<!-- Sign Up For news and special offers -->
+					<div>
+						<div>
+							<h3 class="footer_h3_style text-center text-lg-start">
+								Sign up For news and special offers
+							</h3>
+							<div class="form_for_news mt-3 d-flex align-items-center">
+								<input
+									class="border-0 px-4 placeholder-lg py-2 rounded-start-2"
+									type="text"
+									placeholder="Search Keywords..."
+								/>
+								<input
+									class="border-0 px-4 py-2 rounded-end-2 text-black fw-medium"
+									type="submit"
+								/>
+							</div>
+						</div>
+					</div>
+					<div class="mt-5 mt-lg-0">
+						<div class="social_follow d-flex align-items-center">
+							<h4 class="text-white fs-6">Follow Us On :</h4>
+							<ul
+								class="list-unstyled social_follow_list d-flex align-items-center my-0 mx-2"
+							>
+								<li class="mx-2 fs-6">
+									<a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+								</li>
+								<li class="mx-2 fs-6">
+									<a href="#"><i class="fa-brands fa-twitter"></i></a>
+								</li>
+								<li class="mx-2 fs-6">
+									<a href="#"><i class="fa-brands fa-instagram"></i></a>
+								</li>
+								<li class="mx-2 fs-6">
+									<a href="#"><i class="fa-brands fa-google-plus-g"></i></a>
+								</li>
+								<li class="mx-2 fs-6">
+									<a href="#"><i class="fa-brands fa-pinterest"></i></a>
+								</li>
+								<li class="mx-2 fs-6">
+									<a href="#"><i class="fa-brands fa-vimeo-v"></i></a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+
+				<div
+					class="position-relative copy_right py-4 d-flex justify-content-between align-items-center flex-md-row flex-column"
+				>
+					<p>Copyright 2019 clenix. All Rights Reserved</p>
+					<ul class="list-unstyled d-flex align-items-center m-md-0 mt-3">
+						<li><a class="text-decoration-none" href="#">Sitemap . </a></li>
+						<li class="mx-2">
+							<a class="text-decoration-none" href="#">Terms of Service .</a>
+						</li>
+						<li><a class="text-decoration-none" href="#">Privacy Policy</a></li>
+					</ul>
+				</div>
+			</div>
+		</footer>
+		<!--End Footer  -->
+
+		<script src="../assets/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
+		<script src="../assets/libs/bootstrap/js/popper.min.js"></script>
+		<script
+			type="module"
+			src="../assets/javaScript/service-details.js"
+		></script>
+	</body>
 </html>

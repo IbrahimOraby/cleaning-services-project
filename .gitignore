@@ -23,3 +23,6 @@ TestResults.xml
 # Ignore Bootstrap and FontAwesome folders
 assets/libs/bootstrap/
 assets/libs/font-awesome/
+assets/libs/bootstrap.rar
+assets/libs/font-awesome.rar
+
