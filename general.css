@@ -55,9 +55,9 @@ select {
 }
 
 .heading {
-    font-size: 4rem;
-    font-weight: 700;
-    color: var(--main-white);
+	font-size: 4rem;
+	font-weight: 700;
+	color: var(--main-white);
 }
 
 .sub-heading {
@@ -92,14 +92,22 @@ body {
 }
 
 .head-banner-breadcrumb {
-	color: var(--main-white);
+	a {
+		color: var(--main-white);
+		text-decoration: none;
+	}
 }
 
 .head-banner-breadcrumb:hover {
-	cursor: pointer;
-	color: var(--main-yellow);
+	a {
+		cursor: pointer;
+		color: var(--main-yellow);
+	}
 }
 
 .head-banner-breadcrumb__current {
-	color: var(--main-yellow);
+	a {
+		color: var(--main-yellow);
+		text-decoration: none;
+	}
 }
