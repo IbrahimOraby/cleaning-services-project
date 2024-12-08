@@ -1,3 +1,4 @@
+@import url(./home.css);
 /*  */
  html,
 body {
@@ -29,7 +30,7 @@ body {
 
 
 /*  */
-i{
+.celep i{
     color: var(--secondary-blue);
 }
 h3,.name span,
@@ -116,7 +117,7 @@ p{
     height: 80px;
     border-radius: 50%;
 }
-h5{
+.data h5{
   color: var(--secondary-blue);
   font-weight: bold;
 }
