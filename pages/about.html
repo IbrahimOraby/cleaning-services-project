@@ -14,11 +14,101 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
 
     <link rel="stylesheet" href="../general.css">
+    <link rel="stylesheet" href="../assets/styles/home.css">
+    <link rel="stylesheet" href="../assets/styles/home.css">
     <link rel="stylesheet" href="../assets/styles/about.css">
     <title>Blog Details</title>
 </head>
 
 <body>
+    <!-- Header Section -->
+    <div class="bg-main text-white d-none d-md-flex">
+        <div class="container d-flex justify-content-between align-items-center">
+            <!-- Social Icons -->
+            <div class="">
+                <a href="#"><i class="p-1 text-white fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="p-1 text-white fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="p-1 text-white fa-brands fa-google-plus-g"></i></a>
+                <a href="#"><i class="p-1 text-white fa-brands fa-pinterest"></i></a>
+                <a href="#"><i class="p-1 text-white fa-brands fa-snapchat"></i></a>
+                <!-- Date -->
+                <span class="m-3"> <i class="text-white p-1 fa-regular fa-clock"></i> Mon - Fri: 09.00am - 10.00pm
+                </span>
+            </div>
+            <!-- Get A Quote Button -->
+            <a href="#" class="Quote btn d-flex align-items-center fw-bold"><i class="p-2 fa-solid fa-bell"></i> Get A
+                Quote</a>
+        </div>
+    </div>
+
+    <!-- Navbar Section -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <!-- Logo -->
+            <a class="navbar-brand" href="#">
+                <img src="../assets/images/logo-dark.png" alt="Logo" class="d-inline-block align-text-top">
+            </a>
+
+            <!-- Navbar Toggler (Burger Icon) -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Collapsible Menu -->
+            <div class="collapse navbar-collapse justify-content-center text-center" id="navbarNav">
+                <!-- Centered Navigation Links -->
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="active nav-link" aria-current="page" href="/">Home</a>
+                    </li>
+                    <li class="main-color  nav-item">
+                        <a class="nav-link main-color" href="../pages/about.html">About</a>
+                    </li>
+                    <li class="main-color  nav-item">
+                        <a class="nav-link main-color" href="../pages/services.html">Services</a>
+                    </li>
+                    <li class="main-color  nav-item">
+                        <a class="nav-link main-color" href="../pages/blog.html">Blog</a>
+                    </li>
+                    <li class="main-color  nav-item">
+                        <a class="nav-link main-color" href="../pages/contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Quick Contact -->
+            <div class="d-none d-lg-flex align-items-center">
+                <!-- Phone Icon -->
+                <div class="me-2">
+                    <i class="fs-3 fa-solid fa-phone"></i>
+                </div>
+
+                <!-- Contact Text -->
+                <div class="d-flex flex-column">
+                    <span class="me-2">Quick Contact:</span>
+                    <span class="fw-bold">+985 8844 000</span>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- header Section end-->
+        <!-- banner -->
+        <header class="head-banner text-center py-5">
+            <div class="container py-5">
+                <h1 class="pb-3 head-banner-header">About Us</h1>
+                <div class="pb-3">
+                    <span class="head-banner-breadcrumb"><a href="../index.html">Home</a></span>
+                    <span>
+                        <i class="fa fa-angle-double-right"> </i>
+                    </span>
+                   
+                    <span class="head-banner-breadcrumb__current">
+                        <a href="./service-details.html">About</a>
+                    </span>
+                </div>
+            </div>
+        </header>
     <!-- know about us section start -->
     <section class="know-about-us d-flex justify-content-center col-12">
         <div class="container">
@@ -103,9 +193,10 @@
             </div>
         </div>
     </section>
-    <!-- features section end -->
-    <!-- our working experts section start -->
-    <section class="our-working-experts col-12">
+    <!-- features section end 
+     our working experts section start 
+     <section class="our-working-experts col-12">
+     <section class="our-working-experts col-12"> 
         <div class="container d-flex justify-content-center flex-wrap">
             <div class="col-12 col-lg-4 d-flex justify-content-center">
                 <div class="d-flex justify-content-center text-center overflow-hidden flex-column p-2 ">
@@ -173,8 +264,151 @@
                 </div>
             </div>
         </div>
+    </section> -->
+
+
+    <!-- Working Experts -->
+    <section class="working_experts position-relative py-5">
+        <div class="container">
+            <div class="row text-center py-5">
+                <div class="col-12">
+                    <img class="working_experts_img img-fluid" src="../assets/images/figure1.png"
+                        alt="figure1_latest_blogs" />
+                    <div class="working_experts_info">
+                        <h3 class="fw-bolder mt-2 heading_primary_blue">
+                            Our Working Experts
+                        </h3>
+                        <p class="mt-2 fs-p regular-paragraph">
+                            Perspiciatis unde omnis iste natus error sit voluptatem
+                            accusantium fa-angle- <br />double-up oremque laudantium, totam
+                            remeaque ipsa
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5 mb-5">
+                <!-- Column one -->
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="card border-0 d-flex align-items-center position-relative">
+                        <div class="bubble_img w-100 d-none d-lg-block position-absolute">
+                            <img class="bubble position-absolute h-100" src="../assets/images/bubble1.png"
+                                alt="bubble1.png" />
+                        </div>
+                        <div class="working_experts_image overflow-hidden position-relative rounded-circle">
+                            <img class="image w-100 h-100 position-absolute z-1" src="../assets/images/team1.png"
+                                alt="latestBlogImg" />
+                        </div>
+                    </div>
+                    <div class="card-body text-center p-0">
+                        <h3 class="fw-bold mt-5 heading_primary_blue">Richard Powel</h3>
+                        <span class="regular-paragraph mt-3">Office Cleaner</span>
+
+                        <ul
+                            class="working_experts_social list-unstyled d-flex align-items-center justify-content-center my-3">
+                            <li class="mx-2 rounded-circle d-flex justify-content-center align-items-center">
+                                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                            </li>
+                            <li class="mx-2 rounded-circle d-flex justify-content-center align-items-center">
+                                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                            </li>
+                            <li class="mx-2 rounded-circle d-flex justify-content-center align-items-center">
+                                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                            </li>
+                            <li class="mx-2 rounded-circle d-flex justify-content-center align-items-center">
+                                <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Column Two -->
+                <div class="col-12 col-sm-6 col-lg-4 mt-sm-0 mt-4">
+                    <div class="card border-0 d-flex align-items-center position-relative">
+                        <div class="bubble_img w-100 d-none d-lg-block position-absolute">
+                            <img class="bubble position-absolute h-100" src="../assets/images/bubble1.png"
+                                alt="bubble1.png" />
+                        </div>
+                        <div class="working_experts_image overflow-hidden position-relative rounded-circle">
+                            <img class="image w-100 h-100 position-absolute z-1" src="../assets/images/team1.png"
+                                alt="latestBlogImg" />
+                        </div>
+                    </div>
+                    <div class="card-body text-center p-0">
+                        <h3 class="fw-bold mt-5 heading_primary_blue">Merry Patel</h3>
+                        <span class="regular-paragraph mt-3">Kitchen Cleaner</span>
+
+                        <ul
+                            class="working_experts_social list-unstyled d-flex align-items-center justify-content-center my-3">
+                            <li class="mx-2 rounded-circle d-flex justify-content-center align-items-center">
+                                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                            </li>
+                            <li class="mx-2 rounded-circle d-flex justify-content-center align-items-center">
+                                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                            </li>
+                            <li class="mx-2 rounded-circle d-flex justify-content-center align-items-center">
+                                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                            </li>
+                            <li class="mx-2 rounded-circle d-flex justify-content-center align-items-center">
+                                <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Column Three -->
+
+                <div class="col-12 col-sm-6 col-lg-4 mt-lg-0 mt-4">
+                    <div class="card border-0 d-flex align-items-center position-relative">
+                        <div class="bubble_img d-none d-lg-block w-100 position-absolute">
+                            <img class="bubble position-absolute h-100" src="../assets/images/bubble1.png"
+                                alt="bubble1.png" />
+                        </div>
+                        <div class="working_experts_image overflow-hidden position-relative rounded-circle">
+                            <img class="image w-100 h-100 position-absolute z-1" src="../assets/images/team1.png"
+                                alt="latestBlogImg" />
+                        </div>
+                    </div>
+                    <div class="card-body text-center p-0">
+                        <h3 class="fw-bold mt-5 heading_primary_blue">Johnson Jack</h3>
+                        <span class="regular-paragraph mt-3">Floor Cleaner</span>
+
+                        <ul
+                            class="working_experts_social list-unstyled d-flex align-items-center justify-content-center my-3">
+                            <li class="mx-2 rounded-circle d-flex justify-content-center align-items-center">
+                                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                            </li>
+                            <li class="mx-2 rounded-circle d-flex justify-content-center align-items-center">
+                                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                            </li>
+                            <li class="mx-2 rounded-circle d-flex justify-content-center align-items-center">
+                                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                            </li>
+                            <li class="mx-2 rounded-circle d-flex justify-content-center align-items-center">
+                                <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
+    <!-- End Working Experts -->
     <!-- our working experts section end -->
+
+    <!-- Read More Section -->
+    <section class="read-more d-flex flex-column flex-md-column flex-lg-row align-items-center">
+        <div class="image w-100 w-lg-50 d-flex align-items-center justify-content-center mb-4 mb-md-5">
+            <img src="../assets/images/read-more.webp" alt="readMore" class="img-fluid">
+        </div>
+        <div class="text w-100 w-lg-50 p-5 d-flex flex-column align-items-start justify-content-center">
+            <h1 class="mb-3">
+                <strong>Together</strong> We'll Explore <strong>New Things</strong>
+            </h1>
+            <div class="Quote p-2">
+                <a href="#" class="btn d-flex align-items-center fs-4 fw-bold mx-3"> Read More <i
+                        class="fa-solid fa-chevron-right p-2"></i></a>
+            </div>
+        </div>
+    </section>
+
     <!-- how it works section start -->
     <section class="how-it-works p-5 col-12">
         <div class="container">
@@ -248,6 +482,157 @@
         </div>
     </section>
     <!-- get started section end -->
+    
+    <!-- Footer  -->
+
+    <footer class="footer position-relative p-4">
+        <img src="../assets/images/figure1.png" alt="figure1_footer" class="position-absolute top-0" />
+        <img src="../assets/images/figure2.png" alt="figure2_footer" class="position-absolute bottom-0" />
+        <div class="container py-3">
+            <div class="row position-relative">
+                <!-- Features -->
+                <div class="col-12 col-sm-6 col-lg-4 col-xl-3 text-center text-sm-start">
+                    <div class="features">
+                        <h3 class="footer_h3_style">FEATURES</h3>
+                        <ul class="footer-list mt-4 list-unstyled">
+                            <li class="mt-3">
+                                <a class="text-decoration-none" href="#">Residential Services</a>
+                            </li>
+                            <li class="mt-3">
+                                <a class="text-decoration-none" href="#">Commercial Services</a>
+                            </li>
+                            <li class="mt-3">
+                                <a class="text-decoration-none" href="#">Vechile Wash</a>
+                            </li>
+                            <li class="mt-3">
+                                <a class="text-decoration-none" href="#">Londry Facilities</a>
+                            </li>
+                            <li class="mt-3">
+                                <a class="text-decoration-none" href="#">Carpet Removal</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Company -->
+                <div class="col-12 col-sm-6 col-lg-4 col-xl-3 mt-5 mt-sm-0 text-center text-sm-start">
+                    <div class="company">
+                        <h3 class="footer_h3_style">COMPANY</h3>
+                        <ul class="footer-list mt-4 list-unstyled">
+                            <li class="mt-3">
+                                <a class="text-decoration-none" href="#">About Us</a>
+                            </li>
+                            <li class="mt-3">
+                                <a class="text-decoration-none" href="#">Testimonials</a>
+                            </li>
+                            <li class="mt-3">
+                                <a class="text-decoration-none" href="#">Terms</a>
+                            </li>
+                            <li class="mt-3">
+                                <a class="text-decoration-none" href="#">Media Kit</a>
+                            </li>
+                            <li class="mt-3">
+                                <a class="text-decoration-none" href="#">Sitemap</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Quick Links -->
+                <div class="col-12 col-sm-6 col-lg-4 col-xl-3 mt-5 mt-lg-0 text-center text-sm-start">
+                    <div class="quick_Links">
+                        <h3 class="footer_h3_style">Quick Links</h3>
+                        <ul class="footer-list mt-4 list-unstyled">
+                            <li class="mt-3">
+                                <a class="text-decoration-none" href="#">Features</a>
+                            </li>
+                            <li class="mt-3">
+                                <a class="text-decoration-none" href="#">Pricing</a>
+                            </li>
+                            <li class="mt-3">
+                                <a class="text-decoration-none" href="#">Partners</a>
+                            </li>
+                            <li class="mt-3">
+                                <a class="text-decoration-none" href="#">Cloud Affiliate Program</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Affiliates -->
+                <div class="col-12 col-sm-6 col-lg-4 col-xl-3 mt-5 mt-xl-0 text-center text-sm-start">
+                    <div class="affiliates">
+                        <h3 class="footer_h3_style">AFFILIATES</h3>
+                        <ul class="footer-list mt-4 list-unstyled">
+                            <li class="mt-3">
+                                <a class="text-decoration-none" href="#">Become An Affiliate</a>
+                            </li>
+                            <li class="mt-3">
+                                <a class="text-decoration-none" href="#">Affiliate</a>
+                            </li>
+                        </ul>
+                        <a class="fw-medium mt-5 py-3 px-3 d-block text-white text-decoration-none" href=""><i
+                                class="fa-regular fa-envelope mx-2"></i> HAVE ANY
+                            QUESTION</a>
+                    </div>
+                </div>
+            </div>
+
+            <div
+                class="position-relative py-3 mt-5 mb-5 d-flex align-items-center justify-content-lg-between flex-lg-row flex-column">
+                <!-- Sign Up For news and special offers -->
+                <div>
+                    <div>
+                        <h3 class="footer_h3_style text-center text-lg-start">
+                            Sign up For news and special offers
+                        </h3>
+                        <div class="form_for_news mt-3 d-flex align-items-center">
+                            <input class="border-0 px-4 placeholder-lg py-2 rounded-start-2" type="text"
+                                placeholder="Search Keywords..." />
+                            <input class="border-0 px-4 py-2 rounded-end-2 text-black fw-medium" type="submit" />
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-5 mt-lg-0">
+                    <div class="social_follow d-flex align-items-center">
+                        <h4 class="text-white fs-6">Follow Us On :</h4>
+                        <ul class="list-unstyled social_follow_list d-flex align-items-center my-0 mx-2">
+                            <li class="mx-2 fs-6">
+                                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                            </li>
+                            <li class="mx-2 fs-6">
+                                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                            </li>
+                            <li class="mx-2 fs-6">
+                                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                            </li>
+                            <li class="mx-2 fs-6">
+                                <a href="#"><i class="fa-brands fa-google-plus-g"></i></a>
+                            </li>
+                            <li class="mx-2 fs-6">
+                                <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+                            </li>
+                            <li class="mx-2 fs-6">
+                                <a href="#"><i class="fa-brands fa-vimeo-v"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div
+                class="position-relative copy_right py-4 d-flex justify-content-between align-items-center flex-md-row flex-column">
+                <p>Copyright 2019 clenix. All Rights Reserved</p>
+                <ul class="list-unstyled d-flex align-items-center m-md-0 mt-3">
+                    <li><a class="text-decoration-none" href="#">Sitemap . </a></li>
+                    <li class="mx-2">
+                        <a class="text-decoration-none" href="#">Terms of Service .</a>
+                    </li>
+                    <li><a class="text-decoration-none" href="#">Privacy Policy</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <!--End Footer  -->
 
 
 
