@@ -1,3 +1,32 @@
+@import url(./home.css);
+/*  */
+html,
+body {
+    overflow-x: hidden;
+} 
+
+
+.Quote {
+    background-color: var(--main-yellow);
+    border-radius: 0;
+    color: var(--primary-blue);
+}
+
+.Quote:hover {
+    color: black;
+    background-color: #fff200;
+}
+
+.bg-main {
+    background-color: var(--primary-blue);
+    color: var(--main-white);
+}
+
+.active {
+    font-weight: 600;
+    color: var(--primary-blue) !important;
+}
+/*  */
 .contact i{
     color: var(--secondary-blue);
     font-size: 20px;
