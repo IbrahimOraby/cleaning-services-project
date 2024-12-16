@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router";
+import "../index.css";
 import "../assets/styles/service-details.css";
 import blogHeaderPic from "../assets/images/kitchen-1.jpg";
 import experiencePic from "../assets/images/service-1.jpg";
@@ -25,7 +26,7 @@ export default function ServiceDetails() {
 						<span>
 							<i className="fa fa-angle-double-right"> </i>
 						</span>
-						<span className="head-banner-breadcrumb__current">
+						<span className="head-banner-breadcrumb active">
 							<Link to="../services/service-details">Kitchen Cleaning</Link>
 						</span>
 					</div>
