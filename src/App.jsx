@@ -9,6 +9,7 @@ import BlogDetails from "./pages/BlogDetails";
 import ServiceDetails from "./pages/ServiceDetails";
 import Contact from "./pages/contact";
 import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.bundle.min";
 import "./index.css";
 
 export default function App() {
