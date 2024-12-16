@@ -12,7 +12,7 @@ export default function Footer() {
 					className="position-absolute top-0"
 				/>
 				<img
-					src={figure2_footercd}
+					src={figure2_footer}
 					alt="figure2_footer"
 					className="position-absolute bottom-0"
 				/>
