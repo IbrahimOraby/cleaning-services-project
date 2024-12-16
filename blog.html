@@ -13,7 +13,7 @@
 
     <link rel="stylesheet" href="./assets/libs/bootstrap/css/bootstrap.min.css">
 
-    <link rel="stylesheet" href="./assets/libs/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="./assets/libs/font-awesome/css/all.min.css" />
 
     <link rel="stylesheet" href="./assets/styles/blog.css">
 </head>
@@ -58,7 +58,7 @@
                     <!-- Centered Navigation Links -->
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="active nav-link" aria-current="page" href="../">Home</a>
+                            <a class="nav-link" aria-current="page" href="../">Home</a>
                         </li>
                         <li class="main-color  nav-item">
                             <a class="nav-link main-color" href="../about.html">About</a>
@@ -67,7 +67,7 @@
                             <a class="nav-link main-color" href="../services.html">Services</a>
                         </li>
                         <li class="main-color  nav-item">
-                            <a class="nav-link main-color" href="../blog.html">Blog</a>
+                            <a class="active nav-link main-color" href="../blog.html">Blog</a>
                         </li>
                         <li class="main-color  nav-item">
                             <a class="nav-link main-color" href="../contact.html">Contact</a>
@@ -93,18 +93,22 @@
     </header>
 
     <!-- sub Header section -->
-    <section class="head-banner text-center py-5">
+    <header class="head-banner text-center py-5">
         <div class="container py-5">
-            <h1 class="pb-3 head-banner-header">Our Latest Blogs</h1>
+            <h1 class="pb-3 head-banner-header">Kitchen Cleaning Service</h1>
             <div class="pb-3">
-                <span class="head-banner-breadcrumb ">Home</span>
+                <span class="head-banner-breadcrumb"
+                    ><a href="../index.html">Home</a></span
+                >
                 <span>
                     <i class="fa fa-angle-double-right"> </i>
                 </span>
-                <span class="head-banner-breadcrumb text-warning">Blogs</span>
+                <span class="head-banner-breadcrumb__current">
+                    <a href="./blog.html">Blog</a>
+                </span>
             </div>
         </div>
-    </section>
+    </header>
 
     <main>
         <div class="container my-5">
@@ -114,237 +118,252 @@
                     <div class="row ">
                         <div class="col-md-6 mb-4">
                             <div class="card shadow hover-shadow-lg hover-card  transition  mb-4 h-100">
-                                <div class="card-img ">
-                                    <img src="./assets/images/Blog/Blogs-card-1.jpg" class="card-img-top transition"
-                                        alt="Blogs-card-1">
-                                </div>
-                                <div class="card-body">
-                                    <span><i class="fa-solid fa-calendar-days"></i> 24,July,2019</span>
-                                    <h5 class="card-title">What is Best domin Name for Business</h5>
-                                    <span class="card-text-title">By Mark Wily</span>
-                                    <p class="card-text">Some quick example text to build on the and make up
-                                        the bulk of the card's content Lorem ipsum dolor sit amet consectetur
-                                        adipisicing.</p>
-                                    <div class="card-footer pb-0 mt-3 ">
-                                        <div>
-                                            <i class="fa-solid fa-heart"></i>
-                                            <span class="text-dark fw-bold">06</span>
-                                            <span>Likes</span>
-                                        </div>
-                                        <div>
-                                            <i class="fa-solid fa-comment"></i>
-                                            <spam class="text-dark fw-bold">02</spam>
-                                            <span>comments</span>
+                                <a class="text-decoration-none" href="./blog-details.html">
+                                    <div class="card-img ">
+                                        <img src="./assets/images/Blog/Blogs-card-1.jpg" class="card-img-top transition"
+                                            alt="Blogs-card-1">
+                                    </div>
+                                    <div class="card-body">
+                                        <span class="text-black"><i class="fa-solid fa-calendar-days"></i> 24,July,2019</span>
+                                        <h5 class="card-title">What is Best domin Name for Business</h5>
+                                        <span class="card-text-title">By Mark Wily</span>
+                                        <p class="card-text">Some quick example text to build on the and make up
+                                            the bulk of the card's content Lorem ipsum dolor sit amet consectetur
+                                            adipisicing.</p>
+                                        <div class="card-footer pb-0 mt-3 ">
+                                            <div>
+                                                <i class="fa-solid fa-heart"></i>
+                                                <span class="text-dark fw-bold">06</span>
+                                                <span class="text-black">Likes</span>
+                                            </div>
+                                            <div>
+                                                <i class="fa-solid fa-comment"></i>
+                                                <spam class="text-dark fw-bold">02</spam>
+                                                <span class="text-black">comments</span>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-
+                                </a>
                             </div>
                         </div>
                         <div class="col-md-6 mb-4">
                             <div class="card shadow mb-4 hover-shadow-lg hover-card transition h-100">
-                                <div class="card-img">
-                                    <img src="./assets/images/Blog/Blogs-card-2.jpg" class=" card-img-top transition"
-                                        alt="Blogs-card-2">
-                                </div>
+                                <a class="text-decoration-none" href="./blog-details.html">
+                                    <div class="card-img">
+                                        <img src="./assets/images/Blog/Blogs-card-2.jpg" class=" card-img-top transition"
+                                            alt="Blogs-card-2">
+                                    </div>
 
-                                <div class="card-body">
-                                    <span><i class="fa-solid fa-calendar-days"></i> 24,July,2019</span>
-                                    <h5 class="card-title">What is Best domin Name for Business</h5>
-                                    <span class="card-text-title">By Mark Wily</span>
-                                    <p class="card-text">Some quick example text to build on the and make up
-                                        the bulk of the card's content Lorem ipsum dolor sit amet consectetur
-                                        adipisicing.</p>
-                                    <div class="card-footer pb-0 mt-3">
-                                        <div>
-                                            <i class="fa-solid fa-heart"></i>
-                                            <span class="text-dark fw-bold">06</span>
-                                            <span>Likes</span>
-                                        </div>
-                                        <div>
-                                            <i class="fa-solid fa-comment"></i>
-                                            <spam class="text-dark fw-bold">02</spam>
-                                            <span>comments</span>
+                                    <div class="card-body">
+                                        <span class="text-black"><i class="fa-solid fa-calendar-days"></i> 24,July,2019</span>
+                                        <h5 class="card-title">What is Best domin Name for Business</h5>
+                                        <span class="card-text-title">By Mark Wily</span>
+                                        <p class="card-text">Some quick example text to build on the and make up
+                                            the bulk of the card's content Lorem ipsum dolor sit amet consectetur
+                                            adipisicing.</p>
+                                        <div class="card-footer pb-0 mt-3 ">
+                                            <div>
+                                                <i class="fa-solid fa-heart"></i>
+                                                <span class="text-dark fw-bold">06</span>
+                                                <span class="text-black">Likes</span>
+                                            </div>
+                                            <div>
+                                                <i class="fa-solid fa-comment"></i>
+                                                <spam class="text-dark fw-bold">02</spam>
+                                                <span class="text-black">comments</span>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
+                                </a>
                             </div>
                         </div>
                     </div>
                     <div class="row mb-4">
                         <div class="col-md-6 mb-4">
                             <div class="card shadow mb-4 hover-shadow-lg hover-card transition h-100">
-                                <div class="card-img">
-                                    <img src="./assets/images/Blog/Blogs-card-3.jpg" class="card-img-top transition "
-                                        alt="Blogs-card-3">
-                                </div>
-                                <div class="card-body">
-                                    <span><i class="fa-solid fa-calendar-days"></i> 24,July,2019</span>
-                                    <h5 class="card-title">What is Best domin Name for Business</h5>
-                                    <span class="card-text-title">By Mark Wily</span>
-                                    <p class="card-text">Some quick example text to build on the and make up
-                                        the bulk of the card's content Lorem ipsum dolor sit amet consectetur
-                                        adipisicing.</p>
-                                    <div class="card-footer pb-0 mt-3">
-                                        <div>
-                                            <i class="fa-solid fa-heart"></i>
-                                            <span class="text-dark fw-bold">06</span>
-                                            <span>Likes</span>
-                                        </div>
-                                        <div>
-                                            <i class="fa-solid fa-comment"></i>
-                                            <spam class="text-dark fw-bold">02</spam>
-                                            <span>comments</span>
+                                <a class="text-decoration-none" href="./blog-details.html">
+                                    <div class="card-img">
+                                        <img src="./assets/images/Blog/Blogs-card-3.jpg" class="card-img-top transition "
+                                            alt="Blogs-card-3">
+                                    </div>
+                                    <div class="card-body">
+                                        <span class="text-black"><i class="fa-solid fa-calendar-days"></i> 24,July,2019</span>
+                                        <h5 class="card-title">What is Best domin Name for Business</h5>
+                                        <span class="card-text-title">By Mark Wily</span>
+                                        <p class="card-text">Some quick example text to build on the and make up
+                                            the bulk of the card's content Lorem ipsum dolor sit amet consectetur
+                                            adipisicing.</p>
+                                        <div class="card-footer pb-0 mt-3 ">
+                                            <div>
+                                                <i class="fa-solid fa-heart"></i>
+                                                <span class="text-dark fw-bold">06</span>
+                                                <span class="text-black">Likes</span>
+                                            </div>
+                                            <div>
+                                                <i class="fa-solid fa-comment"></i>
+                                                <spam class="text-dark fw-bold">02</spam>
+                                                <span class="text-black">comments</span>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
+                                </a>
                             </div>
                         </div>
                         <div class="col-md-6 mb-4">
                             <div class="card shadow mb-4 hover-shadow-lg hover-card transition h-100">
-                                <div class="card-img">
-                                    <img src="./assets/images/Blog/Blogs-card-4.jpg" class=" card-img-top transition "
-                                        alt="Blogs-card-4">
-                                </div>
+                                <a class="text-decoration-none" href="./blog-details.html">
+                                    <div class="card-img">
+                                        <img src="./assets/images/Blog/Blogs-card-4.jpg" class=" card-img-top transition "
+                                            alt="Blogs-card-4">
+                                    </div>
 
-                                <div class="card-body">
-                                    <span><i class="fa-solid fa-calendar-days"></i> 24,July,2019</span>
-                                    <h5 class="card-title">What is Best domin Name for Business</h5>
-                                    <span class="card-text-title">By Mark Wily</span>
-                                    <p class="card-text">Some quick example text to build on the and make up
-                                        the bulk of the card's content Lorem ipsum dolor sit amet consectetur
-                                        adipisicing.</p>
-                                    <div class="card-footer pb-0 mt-3">
-                                        <div>
-                                            <i class="fa-solid fa-heart"></i>
-                                            <span class="text-dark fw-bold">06</span>
-                                            <span>Likes</span>
-                                        </div>
-                                        <div>
-                                            <i class="fa-solid fa-comment"></i>
-                                            <spam class="text-dark fw-bold">02</spam>
-                                            <span>comments</span>
+                                    <div class="card-body">
+                                        <span class="text-black"><i class="fa-solid fa-calendar-days"></i> 24,July,2019</span>
+                                        <h5 class="card-title">What is Best domin Name for Business</h5>
+                                        <span class="card-text-title">By Mark Wily</span>
+                                        <p class="card-text">Some quick example text to build on the and make up
+                                            the bulk of the card's content Lorem ipsum dolor sit amet consectetur
+                                            adipisicing.</p>
+                                        <div class="card-footer pb-0 mt-3 ">
+                                            <div>
+                                                <i class="fa-solid fa-heart"></i>
+                                                <span class="text-dark fw-bold">06</span>
+                                                <span class="text-black">Likes</span>
+                                            </div>
+                                            <div>
+                                                <i class="fa-solid fa-comment"></i>
+                                                <spam class="text-dark fw-bold">02</spam>
+                                                <span class="text-black">comments</span>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
+                                </a>
                             </div>
                         </div>
                     </div>
                     <div class="row mb-4">
                         <div class="col-md-6 mb-4">
                             <div class="card shadow mb-4 hover-shadow-lg hover-card transition h-100">
-                                <div class="card-img">
-                                    <img src="./assets/images/Blog/Blogs-card-5.jpg" class="card-img-top transition "
-                                        alt="Blogs-card-5.jpg">
-                                </div>
-                                <div class="card-body">
-                                    <span><i class="fa-solid fa-calendar-days"></i> 24,July,2019</span>
-                                    <h5 class="card-title">What is Best domin Name for Business</h5>
-                                    <span class="card-text-title">By Mark Wily</span>
-                                    <p class="card-text">Some quick example text to build on the and make up
-                                        the bulk of the card's content Lorem ipsum dolor sit amet consectetur
-                                        adipisicing.</p>
-                                    <div class="card-footer pb-0 mt-3">
-                                        <div>
-                                            <i class="fa-solid fa-heart"></i>
-                                            <span class="text-dark fw-bold">06</span>
-                                            <span>Likes</span>
-                                        </div>
-                                        <div>
-                                            <i class="fa-solid fa-comment"></i>
-                                            <spam class="text-dark fw-bold">02</spam>
-                                            <span>comments</span>
+                                <a class="text-decoration-none" href="./blog-details.html">
+                                    <div class="card-img">
+                                        <img src="./assets/images/Blog/Blogs-card-5.jpg" class="card-img-top transition "
+                                            alt="Blogs-card-5.jpg">
+                                    </div>
+                                    <div class="card-body">
+                                        <span class="text-black"><i class="fa-solid fa-calendar-days"></i> 24,July,2019</span>
+                                        <h5 class="card-title">What is Best domin Name for Business</h5>
+                                        <span class="card-text-title">By Mark Wily</span>
+                                        <p class="card-text">Some quick example text to build on the and make up
+                                            the bulk of the card's content Lorem ipsum dolor sit amet consectetur
+                                            adipisicing.</p>
+                                        <div class="card-footer pb-0 mt-3 ">
+                                            <div>
+                                                <i class="fa-solid fa-heart"></i>
+                                                <span class="text-dark fw-bold">06</span>
+                                                <span class="text-black">Likes</span>
+                                            </div>
+                                            <div>
+                                                <i class="fa-solid fa-comment"></i>
+                                                <spam class="text-dark fw-bold">02</spam>
+                                                <span class="text-black">comments</span>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
+                                </a>
                             </div>
                         </div>
                         <div class="col-md-6 mb-4">
                             <div class="card shadow mb-4 hover-shadow-lg hover-card transition h-100">
-                                <div class="card-img">
-                                    <img src="./assets/images/Blog/Blogs-card-6.jpg" class=" card-img-top transition "
-                                        alt="Blogs-card-6">
-                                </div>
+                                <a class="text-decoration-none" href="./blog-details.html">
+                                    <div class="card-img">
+                                        <img src="./assets/images/Blog/Blogs-card-6.jpg" class=" card-img-top transition "
+                                            alt="Blogs-card-6">
+                                    </div>
 
-                                <div class="card-body">
-                                    <span><i class="fa-solid fa-calendar-days"></i> 24,July,2019</span>
-                                    <h5 class="card-title">What is Best domin Name for Business</h5>
-                                    <span class="card-text-title">By Mark Wily</span>
-                                    <p class="card-text">Some quick example text to build on the and make up
-                                        the bulk of the card's content Lorem ipsum dolor sit amet consectetur
-                                        adipisicing.</p>
-                                    <div class="card-footer pb-0 mt-3">
-                                        <div>
-                                            <i class="fa-solid fa-heart"></i>
-                                            <span class="text-dark fw-bold">06</span>
-                                            <span>Likes</span>
-                                        </div>
-                                        <div>
-                                            <i class="fa-solid fa-comment"></i>
-                                            <spam class="text-dark fw-bold">02</spam>
-                                            <span>comments</span>
+                                    <div class="card-body">
+                                        <span class="text-black"><i class="fa-solid fa-calendar-days"></i> 24,July,2019</span>
+                                        <h5 class="card-title">What is Best domin Name for Business</h5>
+                                        <span class="card-text-title">By Mark Wily</span>
+                                        <p class="card-text">Some quick example text to build on the and make up
+                                            the bulk of the card's content Lorem ipsum dolor sit amet consectetur
+                                            adipisicing.</p>
+                                        <div class="card-footer pb-0 mt-3 ">
+                                            <div>
+                                                <i class="fa-solid fa-heart"></i>
+                                                <span class="text-dark fw-bold">06</span>
+                                                <span class="text-black">Likes</span>
+                                            </div>
+                                            <div>
+                                                <i class="fa-solid fa-comment"></i>
+                                                <spam class="text-dark fw-bold">02</spam>
+                                                <span class="text-black">comments</span>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
+                                </a>
                             </div>
                         </div>
                     </div>
                     <div class="row mb-4">
                         <div class="col-md-6 mb-4">
                             <div class="card shadow mb-4 hover-shadow-lg hover-card transition h-100">
-                                <div class="card-img">
-                                    <img src="./assets/images/Blog/Blogs-card-7.jpg" class="card-img-top transition "
-                                        alt="Blogs-card-7">
-                                </div>
-                                <div class="card-body">
-                                    <span><i class="fa-solid fa-calendar-days"></i> 24,July,2019</span>
-                                    <h5 class="card-title">What is Best domin Name for Business</h5>
-                                    <span class="card-text-title">By Mark Wily</span>
-                                    <p class="card-text">Some quick example text to build on the and make up
-                                        the bulk of the card's content Lorem ipsum dolor sit amet consectetur
-                                        adipisicing.</p>
-                                    <div class="card-footer pb-0 mt-3">
-                                        <div>
-                                            <i class="fa-solid fa-heart"></i>
-                                            <span class="text-dark fw-bold">06</span>
-                                            <span>Likes</span>
-                                        </div>
-                                        <div>
-                                            <i class="fa-solid fa-comment"></i>
-                                            <spam class="text-dark fw-bold">02</spam>
-                                            <span>comments</span>
+                                <a class="text-decoration-none" href="./blog-details.html">
+                                    <div class="card-img">
+                                        <img src="./assets/images/Blog/Blogs-card-7.jpg" class="card-img-top transition "
+                                            alt="Blogs-card-7">
+                                    </div>
+                                    <div class="card-body">
+                                        <span class="text-black"><i class="fa-solid fa-calendar-days"></i> 24,July,2019</span>
+                                        <h5 class="card-title">What is Best domin Name for Business</h5>
+                                        <span class="card-text-title">By Mark Wily</span>
+                                        <p class="card-text">Some quick example text to build on the and make up
+                                            the bulk of the card's content Lorem ipsum dolor sit amet consectetur
+                                            adipisicing.</p>
+                                        <div class="card-footer pb-0 mt-3 ">
+                                            <div>
+                                                <i class="fa-solid fa-heart"></i>
+                                                <span class="text-dark fw-bold">06</span>
+                                                <span class="text-black">Likes</span>
+                                            </div>
+                                            <div>
+                                                <i class="fa-solid fa-comment"></i>
+                                                <spam class="text-dark fw-bold">02</spam>
+                                                <span class="text-black">comments</span>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
+                                </a>
                             </div>
                         </div>
                         <div class="col-md-6 mb-4">
                             <div class="card shadow mb-4 hover-shadow-lg hover-card transition h-100">
-                                <div class="card-img">
-                                    <img src="./assets/images/Blog/Blogs-card-8.jpg" class=" card-img-top transition "
-                                        alt="Blogs-card-8">
-                                </div>
+                                <a class="text-decoration-none" href="./blog-details.html">
+                                    <div class="card-img">
+                                        <img src="./assets/images/Blog/Blogs-card-8.jpg" class=" card-img-top transition "
+                                            alt="Blogs-card-8">
+                                    </div>
 
-                                <div class="card-body">
-                                    <span><i class="fa-solid fa-calendar-days"></i> 24,July,2019</span>
-                                    <h5 class="card-title">What is Best domin Name for Business</h5>
-                                    <span class="card-text-title">By Mark Wily</span>
-                                    <p class="card-text">Some quick example text to build on the and make up
-                                        the bulk of the card's content Lorem ipsum dolor sit amet consectetur
-                                        adipisicing.</p>
-                                    <div class="card-footer pb-0 mt-3">
-                                        <div>
-                                            <i class="fa-solid fa-heart"></i>
-                                            <span class="text-dark fw-bold">06</span>
-                                            <span>Likes</span>
-                                        </div>
-                                        <div>
-                                            <i class="fa-solid fa-comment"></i>
-                                            <spam class="text-dark fw-bold">02</spam>
-                                            <span>comments</span>
+                                    <div class="card-body">
+                                        <span class="text-black"><i class="fa-solid fa-calendar-days"></i> 24,July,2019</span>
+                                        <h5 class="card-title">What is Best domin Name for Business</h5>
+                                        <span class="card-text-title">By Mark Wily</span>
+                                        <p class="card-text">Some quick example text to build on the and make up
+                                            the bulk of the card's content Lorem ipsum dolor sit amet consectetur
+                                            adipisicing.</p>
+                                        <div class="card-footer pb-0 mt-3 ">
+                                            <div>
+                                                <i class="fa-solid fa-heart"></i>
+                                                <span class="text-dark fw-bold">06</span>
+                                                <span class="text-black">Likes</span>
+                                            </div>
+                                            <div>
+                                                <i class="fa-solid fa-comment"></i>
+                                                <spam class="text-dark fw-bold">02</spam>
+                                                <span class="text-black">comments</span>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
+                                </a>
                             </div>
                         </div>
                     </div>
