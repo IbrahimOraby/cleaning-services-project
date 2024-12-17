@@ -576,12 +576,12 @@ body {
     left: 11px;
     z-index: 0;
     object-fit: cover;
-    transform: rotate(-180deg);
-    -webkit-transform: rotate(-180deg);
-    -moz-transform: rotate(-180deg);
-    -ms-transform: rotate(-180deg);
-    -o-transform: rotate(-180deg);
-  }
+    transform: rotate(-40deg);
+    -webkit-transform: rotate(-40deg);
+    -moz-transform: rotate(-40deg);
+    -ms-transform: rotate(-40deg);
+    -o-transform: rotate(-40deg);
+}
 }
 
 .working_experts .image {
