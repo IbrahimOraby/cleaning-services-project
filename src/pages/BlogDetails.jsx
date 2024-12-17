@@ -8,24 +8,15 @@ import blogDetails from "../assets/images/blog-details/blog-details.png";
 import woman1 from "../assets/images/blog-details/woman-1.jpeg";
 import woman2 from "../assets/images/blog-details/woman-2.jpeg";
 import NewsLetter from "../assets/images/Blog/Newsletter.svg";
+import HeadBanner from "../components/HeadBanner/HeadBanner";
 
 export default function BlogDetails() {
 	return (
 		<>
-			<div className="head-banner bg-main text-center py-5">
-				<div className="container py-5">
-					<h1 className="pb-3 head-banner-header">Our Latest Blogs</h1>
-					<div className="pb-3">
-						<span className="head-banner-breadcrumb">Home</span>
-						<span>
-							<i className="fa fa-angle-double-right"></i>
-						</span>
-						<span className="head-banner-breadcrumb text-warning">Blogs</span>
-					</div>
-				</div>
-			</div>
+			{/* <!-- banner --> */}
+			<HeadBanner currPage={"Modern Rules Of Hygienic Cleaning"} />
 
-			<div>
+			<div className="main-cont">
 				<div className="container my-5">
 					<div className="row">
 						<div className="col-lg-8">

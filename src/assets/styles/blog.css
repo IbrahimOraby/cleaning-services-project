@@ -43,87 +43,89 @@ Link {
 }
 
 /* ------------------- Card Styles ------------------- */
-.card {
-	background: var(--main-white);
-	overflow: hidden;
-	border: 0 !important;
-	cursor: pointer;
-	padding-bottom: 0 !important;
-	background: var(--main-white);
-	overflow: hidden;
-	border: 0 !important;
-	cursor: pointer;
-	padding-bottom: 0 !important;
-}
+.blog-card {
+	.card {
+		background: var(--main-white);
+		overflow: hidden;
+		border: 0 !important;
+		cursor: pointer;
+		padding-bottom: 0 !important;
+		background: var(--main-white);
+		overflow: hidden;
+		border: 0 !important;
+		cursor: pointer;
+		padding-bottom: 0 !important;
+	}
 
-.hover-shadow-lg:hover {
-	box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.3) !important;
-}
+	.hover-shadow-lg:hover {
+		box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.3) !important;
+	}
 
-.transition {
-	transition: all 0.4s ease-in-out !important;
-}
+	.transition {
+		transition: all 0.4s ease-in-out !important;
+	}
 
-.hover-card:hover .card-img img {
-	transform: scale(1.1);
-}
+	.hover-card:hover .card-img img {
+		transform: scale(1.1);
+	}
 
-.card-img {
-	overflow: hidden;
-	border-radius: 0.25rem;
-}
+	.card-img {
+		overflow: hidden;
+		border-radius: 0.25rem;
+	}
 
-.card i {
-	color: var(--secondary-blue);
-	padding-right: 7px;
-}
+	.card i {
+		color: var(--secondary-blue);
+		padding-right: 7px;
+	}
 
-.card-img {
-	width: 100 !important;
-}
+	.card-img {
+		width: 100 !important;
+	}
 
-.card-title {
-	font-size: 1.2rem;
-	padding: 10px 0;
-	font-weight: bold;
-	color: var(--primary-blue) !important;
-}
+	.card-title {
+		font-size: 1.2rem;
+		padding: 10px 0;
+		font-weight: bold;
+		color: var(--primary-blue) !important;
+	}
 
-.card-text {
-	color: var(--main-paragraph);
-}
+	.card-text {
+		color: var(--main-paragraph);
+	}
 
-.card-text-title {
-	color: var(--main-paragraph);
-	display: flex;
-	align-items: center;
-}
+	.card-text-title {
+		color: var(--main-paragraph);
+		display: flex;
+		align-items: center;
+	}
 
-.card-text-title::before {
-	content: "";
-	height: 2px;
-	width: 15px;
-	background-color: var(--main-gray);
-	margin-right: 10px;
-}
+	.card-text-title::before {
+		content: "";
+		height: 2px;
+		width: 15px;
+		background-color: var(--main-gray);
+		margin-right: 10px;
+	}
 
-.card-footer {
-	background: var(--main-white);
-	margin-top: 0.2rem;
-	padding-top: 1.3rem;
-	font-size: 0.8rem;
-	display: flex;
-	justify-content: space-between;
-	background: var(--main-white);
-	margin-top: 0.2rem;
-	padding-top: 1.3rem;
-	font-size: 0.8rem;
-	display: flex;
-	justify-content: space-between;
-}
+	.card-footer {
+		background: var(--main-white);
+		margin-top: 0.2rem;
+		padding-top: 1.3rem;
+		font-size: 0.8rem;
+		display: flex;
+		justify-content: space-between;
+		background: var(--main-white);
+		margin-top: 0.2rem;
+		padding-top: 1.3rem;
+		font-size: 0.8rem;
+		display: flex;
+		justify-content: space-between;
+	}
 
-.card-footer i {
-	color: var(--main-gray);
+	.card-footer i {
+		color: var(--main-gray);
+	}
 }
 
 /* ------------------- Aside Component Styles ------------------- */
@@ -242,7 +244,7 @@ Link {
 
 /*---------Posts----------*/
 .list-group-item span {
-	color: var(--main-paragraph) !important;
+	color: var(--main-paragraph);
 	font-size: 12px;
 	font-weight: bold;
 }
@@ -253,7 +255,7 @@ Link {
 
 /* ---------Form--------- */
 .Aside-form {
-	background-color: var(--primary-blue) !important;
+	background-color: var(--primary-blue);
 	padding: 2.4rem;
 	margin-bottom: 2.2rem;
 	border-radius: 4px;
@@ -268,13 +270,14 @@ Link {
 }
 
 /* -------Archive--------- */
+.archives {
+	.list-group span {
+		color: var(--main-gray);
+	}
 
-.list-group span {
-	color: var(--main-gray);
-}
-
-.list-group-item {
-	margin-bottom: 2px;
+	.list-group-item {
+		margin-bottom: 2px;
+	}
 }
 
 /*-----------Tags-----------*/

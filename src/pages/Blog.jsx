@@ -1,41 +1,31 @@
-import React from 'react';
-import { Link } from 'react-router';
-import Card1 from '../assets/images/Blog/Blogs-card-1.jpg';
-import Card2 from '../assets/images/Blog/Blogs-card-2.jpg';
-import Card3 from '../assets/images/Blog/Blogs-card-3.jpg';
-import Card4 from '../assets/images/Blog/Blogs-card-4.jpg';
-import Card5 from '../assets/images/Blog/Blogs-card-5.jpg';
-import Card6 from '../assets/images/Blog/Blogs-card-6.jpg';
-import Card7 from '../assets/images/Blog/Blogs-card-7.jpg';
-import Card8 from '../assets/images/Blog/Blogs-card-8.jpg';
-import Newsletter from '../assets/images/Blog/Newsletter.svg';
-import Aside from '../components/Aside/AsideBlog';
+import React from "react";
+import { Link } from "react-router";
+import Card1 from "../assets/images/Blog/Blogs-card-1.jpg";
+import Card2 from "../assets/images/Blog/Blogs-card-2.jpg";
+import Card3 from "../assets/images/Blog/Blogs-card-3.jpg";
+import Card4 from "../assets/images/Blog/Blogs-card-4.jpg";
+import Card5 from "../assets/images/Blog/Blogs-card-5.jpg";
+import Card6 from "../assets/images/Blog/Blogs-card-6.jpg";
+import Card7 from "../assets/images/Blog/Blogs-card-7.jpg";
+import Card8 from "../assets/images/Blog/Blogs-card-8.jpg";
+import Newsletter from "../assets/images/Blog/Newsletter.svg";
+import Aside from "../components/Aside/AsideBlog";
+import HeadBanner from "../components/HeadBanner/HeadBanner";
 
 function Blog() {
-
 	const cards = [Card1, Card2, Card3, Card4, Card5, Card6, Card7, Card8];
 
 	return (
 		<>
-			<div className="head-banner bg-main text-center py-5">
-				<div className="container py-5">
-					<h1 className="pb-3 head-banner-header">Our Latest Blogs</h1>
-					<div className="pb-3">
-						<span className="head-banner-breadcrumb">Home</span>
-						<span>
-							<i className="fa fa-angle-double-right"></i>
-						</span>
-						<span className="head-banner-breadcrumb text-warning">Blogs</span>
-					</div>
-				</div>
-			</div>
+			{/* <!-- banner --> */}
+			<HeadBanner currPage={"Blog"} />
 
 			<div>
 				<div className="container my-5">
 					<div className="row">
 						<div className="col-lg-8">
 							{/* Blog Cards */}
-							<div className="row">
+							<div className="row blog-card">
 								{Array.from({ length: 8 }, (_, index) => (
 									<div className="col-md-6 mb-4 " key={index}>
 										<Link to={"blog-details"}>
@@ -49,12 +39,17 @@ function Blog() {
 												</div>
 												<div className="card-body">
 													<span>
-														<i className="fa-solid fa-calendar-days"></i> 24, July, 2019
+														<i className="fa-solid fa-calendar-days"></i> 24,
+														July, 2019
 													</span>
-													<h5 className="card-title">What is Best Domain Name for Business</h5>
+													<h5 className="card-title">
+														What is Best Domain Name for Business
+													</h5>
 													<span className="card-text-title">By Mark Wily</span>
 													<p className="card-text">
-														Some quick example text to build on the and make up the bulk of the card's content Lorem ipsum dolor sit amet consectetur adipisicing.
+														Some quick example text to build on the and make up
+														the bulk of the card's content Lorem ipsum dolor sit
+														amet consectetur adipisicing.
 													</p>
 													<div className="card-footer pb-0 mt-3">
 														<div>
@@ -71,8 +66,6 @@ function Blog() {
 												</div>
 											</div>
 										</Link>
-
-
 									</div>
 								))}
 							</div>
@@ -84,7 +77,11 @@ function Blog() {
 								<div className="col-md-12">
 									<Aside title="Search">
 										<div className="input-container">
-											<input type="text" placeholder="Type here your topic..." className="input-field p-3" />
+											<input
+												type="text"
+												placeholder="Type here your topic..."
+												className="input-field p-3"
+											/>
 											<i className="fa-solid fa-search search-icon"></i>
 										</div>
 									</Aside>
@@ -92,8 +89,18 @@ function Blog() {
 								{/* Categories */}
 								<div className="col-md-12">
 									<Aside title="Categories">
-										<div className="accordion accordion-flush" id="accordionFlushExample">
-											{['Cleaning Tips', 'Green Cleaning', 'Moving Cleaning', 'News', 'Product Reviews', 'Spring Cleaning'].map((category, index) => (
+										<div
+											className="accordion accordion-flush"
+											id="accordionFlushExample"
+										>
+											{[
+												"Cleaning Tips",
+												"Green Cleaning",
+												"Moving Cleaning",
+												"News",
+												"Product Reviews",
+												"Spring Cleaning"
+											].map((category, index) => (
 												<div className="accordion-item" key={index}>
 													<h2 className="accordion-header">
 														<button
@@ -107,8 +114,14 @@ function Blog() {
 															{category}
 														</button>
 													</h2>
-													<div id={`flush-collapse${index + 1}`} className="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-														<div className="accordion-body">Placeholder content for {category}.</div>
+													<div
+														id={`flush-collapse${index + 1}`}
+														className="accordion-collapse collapse"
+														data-bs-parent="#accordionFlushExample"
+													>
+														<div className="accordion-body">
+															Placeholder content for {category}.
+														</div>
 													</div>
 												</div>
 											))}
@@ -120,13 +133,19 @@ function Blog() {
 									<Aside title="Posts">
 										<ul className="list-group rounded-0">
 											{Array.from({ length: 3 }, (_, index) => (
-												<li className="list-group-item py-3 fw-light h6 border-0" key={index}>
+												<li
+													className="list-group-item py-3 fw-light h6 border-0"
+													key={index}
+												>
 													<div className="date">
 														<span>
-															<i className="fa-regular fa-clock"></i> 24, July, 2019
+															<i className="fa-regular fa-clock"></i> 24, July,
+															2019
 														</span>
 													</div>
-													<h5 className="card-title">Why Clany's a life-saver for my flatshare!</h5>
+													<h5 className="card-title">
+														Why Clany's a life-saver for my flatshare!
+													</h5>
 												</li>
 											))}
 										</ul>
@@ -137,27 +156,47 @@ function Blog() {
 									<div className="Aside-form">
 										<div className="text-center">
 											<div>
-												<img src={Newsletter} alt="Newsletter" className="w-25" />
+												<img
+													src={Newsletter}
+													alt="Newsletter"
+													className="w-25"
+												/>
 											</div>
 											<div>
 												<h3 className="text-white h5 fw-bolder">Newsletter</h3>
-												<p className="gray py-3">Subscribe us & stay with updates</p>
+												<p className="gray py-3">
+													Subscribe us & stay with updates
+												</p>
 											</div>
 											<div className="input-group">
 												<div>
-													<input type="text" placeholder="Enter your Email" className="input-field py-2" />
-													<button className="btn main-btn py-2 my-2">Subscribe</button>
+													<input
+														type="text"
+														placeholder="Enter your Email"
+														className="input-field py-2"
+													/>
+													<button className="btn main-btn py-2 my-2">
+														Subscribe
+													</button>
 												</div>
 											</div>
 										</div>
 									</div>
 								</div>
 								{/* Archives */}
-								<div className="col-md-12">
+								<div className="col-md-12 archives">
 									<Aside title="Archives">
 										<ul className="list-group rounded-0">
-											{['January (15)', 'February (15)', 'March (15)', 'More+'].map((archive, index) => (
-												<li className="list-group-item py-3 fw-light h6 border-0" key={index}>
+											{[
+												"January (15)",
+												"February (15)",
+												"March (15)",
+												"More+"
+											].map((archive, index) => (
+												<li
+													className="list-group-item py-3 fw-light h6 border-0"
+													key={index}
+												>
 													{archive}
 												</li>
 											))}
@@ -168,8 +207,19 @@ function Blog() {
 								<div className="col-md-12">
 									<Aside title="Tags">
 										<div className="d-flex flex-wrap">
-											{['Cleaner', 'Office Cleaning', 'Glass Cleaning', 'Kitchen Cleaning', 'Apartment Cleaning', 'Floor Cleaning'].map((tag, index) => (
-												<a href="#" className="tag-item badge text-bg-light" key={index}>
+											{[
+												"Cleaner",
+												"Office Cleaning",
+												"Glass Cleaning",
+												"Kitchen Cleaning",
+												"Apartment Cleaning",
+												"Floor Cleaning"
+											].map((tag, index) => (
+												<a
+													href="#"
+													className="tag-item badge text-bg-light"
+													key={index}
+												>
 													{tag}
 												</a>
 											))}
@@ -183,7 +233,11 @@ function Blog() {
 					<div className="container pagination mx-auto">
 						<div className="btn-group mx-auto" role="group">
 							{Array.from({ length: 4 }, (_, index) => (
-								<button type="button" className="btn btn-primary rounded-1 mx-1" key={index}>
+								<button
+									type="button"
+									className="btn btn-primary rounded-1 mx-1"
+									key={index}
+								>
 									{index + 1}
 								</button>
 							))}
