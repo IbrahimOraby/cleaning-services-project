@@ -5,33 +5,13 @@ import "../assets/styles/service-details.css";
 import blogHeaderPic from "../assets/images/kitchen-1.jpg";
 import experiencePic from "../assets/images/service-1.jpg";
 import adPic from "../assets/images/read-more.webp";
+import HeadBanner from "../components/HeadBanner/HeadBanner";
 
 export default function ServiceDetails() {
 	return (
 		<>
 			{/* <!-- banner --> */}
-			<header className="head-banner text-center py-5">
-				<div className="container py-5">
-					<h1 className="pb-3 head-banner-header">Kitchen Cleaning Service</h1>
-					<div className="pb-3">
-						<span className="head-banner-breadcrumb">
-							<Link to="/">Home</Link>
-						</span>
-						<span>
-							<i className="fa fa-angle-double-right"> </i>
-						</span>
-						<span className="head-banner-breadcrumb">
-							<Link to="../services">Services</Link>
-						</span>
-						<span>
-							<i className="fa fa-angle-double-right"> </i>
-						</span>
-						<span className="head-banner-breadcrumb active">
-							<Link to="../services/service-details">Kitchen Cleaning</Link>
-						</span>
-					</div>
-				</div>
-			</header>
+			<HeadBanner currPage={"Kitchen Cleaning Services"} />
 
 			{/* <!-- main-content --> */}
 			<main className="main-content ">
