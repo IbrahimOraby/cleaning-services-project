@@ -6,6 +6,7 @@ import blogHeaderPic from "../assets/images/kitchen-1.jpg";
 import experiencePic from "../assets/images/service-1.jpg";
 import adPic from "../assets/images/read-more.webp";
 import HeadBanner from "../components/HeadBanner/HeadBanner";
+import QuestionsForm from "../components/QuestionsForm/QuestionsForm";
 
 export default function ServiceDetails() {
 	return (
@@ -443,65 +444,7 @@ export default function ServiceDetails() {
 								</div>
 
 								{/* <!-- questions form --> */}
-								<div className="questions-form-card aside-card p-5 mb-5 rounded-2">
-									<h5 className="aside-card-title heading-border-inline-start ps-3 mb-4">
-										Have You Any Questions?
-									</h5>
-									<form className="d-flex flex-column">
-										<div className="questions-form-input">
-											{/* <i className="fa-solid fa-user"></i>  */}
-											<input
-												type="text"
-												name="name"
-												placeholder="Name"
-												className="questions-form-control rounded-1"
-											/>
-										</div>
-
-										<div className="questions-form-input">
-											{/*  <i className="fa-regular fa-envelope"></i>  */}
-											<input
-												type="email"
-												name="email-address"
-												placeholder="E-mail Address"
-												className="questions-form-control rounded-1"
-											/>
-										</div>
-
-										<div className="questions-form-input">
-											{/*  <i className="fa-solid fa-phone"></i> */}
-											<input
-												type="text"
-												name="phone"
-												placeholder="Phone"
-												className="questions-form-control rounded-1"
-											/>
-										</div>
-
-										<div className="questions-form-input">
-											{/*  <i className="fa-solid fa-question"></i>  */}
-											<input
-												type="text"
-												name="subject"
-												placeholder="Subject"
-												className="questions-form-control rounded-1"
-											/>
-										</div>
-
-										<div className="questions-form-input d-flex">
-											{/* <i className="fa-regular fa-comments"></i>  */}
-											<textarea
-												type="text"
-												name="address"
-												placeholder="Address"
-												className="questions-form-control rounded-1"
-											></textarea>
-										</div>
-										<button className="yellow-btn fw-medium" type="submit">
-											Send Message
-										</button>
-									</form>
-								</div>
+								<QuestionsForm />
 
 								{/* <!-- discount ad --> */}
 								<div className="discount-ad d-flex flex-column">
