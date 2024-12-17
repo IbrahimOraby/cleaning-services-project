@@ -1,8 +1,8 @@
 import React from "react";
 
-function FeedbackCard({ quote, name, role, rate }) {
+function FeedbackCard({ quote, name, role, rate, responsive }) {
   return (
-    <div class="col-12 col-sm-6 col-lg-4">
+    <div class={`col-12 col-sm-6 col-lg-4  ${responsive ? responsive : ""}`}>
       <div class="card rounded-0 position-relative text-center p-5">
         <span class="position-absolute quote rounded-circle p-4 fw-bold">
           <i class="fa-solid fa-quote-left"></i>

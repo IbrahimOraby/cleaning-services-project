@@ -23,6 +23,7 @@ function FeedBack() {
             name="Steven Joes"
             role="CEO, RT"
             rate={5}
+            
           />
 
           {/* Column 2 */}
@@ -33,6 +34,7 @@ function FeedBack() {
             name="Mike Tyson"
             role="CEO, RT"
             rate={5}
+            responsive = "mt-sm-0 mt-4"
           />
           {/* Column 3 */}
           <FeedbackCard
@@ -42,6 +44,7 @@ function FeedBack() {
             name="Bobby John"
             role="CEO, RT"
             rate={5}
+            responsive = "mt-lg-0 mt-4"
           />
         </div>
       </div>

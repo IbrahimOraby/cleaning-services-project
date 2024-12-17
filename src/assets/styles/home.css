@@ -458,7 +458,7 @@ body {
       &:nth-child(1) {
         top: 0;
         left: 0;
-		transform: rotate(-180deg);
+        transform: rotate(-180deg);
         -webkit-transform: rotate(-180deg);
         -moz-transform: rotate(-180deg);
         -ms-transform: rotate(-180deg);
@@ -468,7 +468,6 @@ body {
       &:nth-child(2) {
         top: 0;
         right: 0;
-       
       }
     }
 
@@ -572,8 +571,8 @@ body {
   }
 
   .bubble {
-    top: -51px;
-    left: 11px;
+    top: -50px;
+    left: 15px;
     z-index: 0;
     object-fit: cover;
     transform: rotate(-40deg);
@@ -581,7 +580,7 @@ body {
     -moz-transform: rotate(-40deg);
     -ms-transform: rotate(-40deg);
     -o-transform: rotate(-40deg);
-}
+  }
 }
 
 .working_experts .image {
