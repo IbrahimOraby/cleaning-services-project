@@ -1,17 +1,18 @@
 import React from "react";
-import figure1 from "../../assets/images/figure1.png";
+import figure1_footer from "../../assets/images/figure1.png";
+import figure2_footer from "../../assets/images/figure2.png";
 
 export default function Footer() {
 	return (
 		<>
 			<footer className="footer position-relative p-4">
 				<img
-					src={figure1}
+					src={figure1_footer}
 					alt="figure1_footer"
 					className="position-absolute top-0"
 				/>
 				<img
-					src="./assets/images/figure2.png"
+					src={figure2_footer}
 					alt="figure2_footer"
 					className="position-absolute bottom-0"
 				/>

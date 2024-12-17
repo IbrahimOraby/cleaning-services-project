@@ -1,5 +1,6 @@
 import React from "react";
 import { Link, NavLink } from "react-router";
+import logo from '../../assets/images/logo-dark.png'
 import "../../assets/styles/home.css";
 
 export default function Header() {
@@ -39,7 +40,7 @@ export default function Header() {
 				<div className="container">
 					<Link className="navbar-brand" to="#">
 						<img
-							src="./assets/images/logo-dark.png"
+							src={logo}
 							alt="Logo"
 							className="d-inline-block align-text-top"
 						/>
