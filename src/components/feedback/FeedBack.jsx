@@ -3,18 +3,18 @@ import FeedbackCard from "./FeedbackCard";
 
 function FeedBack() {
   return (
-    <section class="feedback position-relative py-5">
-      <div class="container">
-        <div class="row text-center py-3">
-          <div class="col-12">
-            <p class="fw-bolder fs-3 text-white">
+    <section className="feedback position-relative py-5">
+      <div className="container">
+        <div className="row text-center py-3">
+          <div className="col-12">
+            <p className="fw-bolder fs-3 text-white">
               What Clients Say <br />
               About Us
             </p>
           </div>
         </div>
 
-        <div class="row mt-5 mb-5">
+        <div className="row mt-5 mb-5">
           {/* Column 1 */}
           <FeedbackCard
             quote="Simply dummy text of the printing and typesetting industry.

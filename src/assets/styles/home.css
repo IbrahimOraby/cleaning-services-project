@@ -699,6 +699,7 @@ body {
   color: var(--secondary-blue);
 }
 
+
 .by_name::before {
   content: "";
   width: 20px;
