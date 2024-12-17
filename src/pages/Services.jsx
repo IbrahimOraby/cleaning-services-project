@@ -6,9 +6,9 @@ export default function Services() {
 					<div className="col">
 						<div className="card">
 							<div className="icon-container position-absolute">
-								<img src="../assets/images/clean-icon.png" alt="clean icon" />
+								<img src="assets/images/clean-icon.png" alt="clean icon" />
 							</div>
-							<img src="../assets/images/clean.jpg" alt="" className="card-img" />
+							<img src="assets/images/clean.jpg" alt="" className="card-img" />
 							<p className="text-capitalize">office cleaning</p>
 						</div>
 					</div>
@@ -16,9 +16,9 @@ export default function Services() {
 					<div className="col">
 						<div className="card">
 							<div className="icon-container position-absolute">
-								<img src="../assets/images/clean-icon.png" alt="clean icon" />
+								<img src="assets/images/clean-icon.png" alt="clean icon" />
 							</div>
-							<img src="../assets/images/clean.jpg" alt="" className="card-img" />
+							<img src="assets/images/clean.jpg" alt="" className="card-img" />
 							<p className="text-capitalize">window cleaning</p>
 						</div>
 					</div>
@@ -26,9 +26,9 @@ export default function Services() {
 					<div className="col">
 						<div className="card">
 							<div className="position-absolute icon-container">
-								<img src="../assets/images/clean-icon.png" alt="clean icon" />
+								<img src="assets/images/clean-icon.png" alt="clean icon" />
 							</div>
-							<img src="../assets/images/clean.jpg" alt="" className="card-img" />
+							<img src="assets/images/clean.jpg" alt="" className="card-img" />
 							<p className="text-capitalize">floor cleaning</p>
 						</div>
 					</div>
@@ -36,9 +36,9 @@ export default function Services() {
 					<div className="col">
 						<div className="card">
 							<div className="position-absolute icon-container">
-								<img src="../assets/images/clean-icon.png" alt="clean icon" />
+								<img src="assets/images/clean-icon.png" alt="clean icon" />
 							</div>
-							<img src="../assets/images/clean.jpg" alt="" className="card-img" />
+							<img src="assets/images/clean.jpg" alt="" className="card-img" />
 							<p className="text-capitalize">kitchen cleaning</p>
 						</div>
 					</div>
@@ -46,9 +46,9 @@ export default function Services() {
 					<div className="col">
 						<div className="card">
 							<div className="position-absolute icon-container">
-								<img src="../assets/images/clean-icon.png" alt="clean icon" />
+								<img src="assets/images/clean-icon.png" alt="clean icon" />
 							</div>
-							<img src="../assets/images/clean.jpg" alt="" className="card-img" />
+							<img src="assets/images/clean.jpg" alt="" className="card-img" />
 							<p className="text-capitalize">car wash</p>
 						</div>
 					</div>
@@ -56,9 +56,9 @@ export default function Services() {
 					<div className="col">
 						<div className="card">
 							<div className="position-absolute icon-container">
-								<img src="../assets/images/clean-icon.png" alt="clean icon" />
+								<img src="assets/images/clean-icon.png" alt="clean icon" />
 							</div>
-							<img src="../assets/images/clean.jpg" alt="" className="card-img" />
+							<img src="assets/images/clean.jpg" alt="" className="card-img" />
 							<p className="text-capitalize">kitchen cleaning</p>
 						</div>
 					</div>
@@ -66,9 +66,9 @@ export default function Services() {
 					<div className="col">
 						<div className="card">
 							<div className="position-absolute icon-container">
-								<img src="../assets/images/clean-icon.png" alt="clean icon" />
+								<img src="assets/images/clean-icon.png" alt="clean icon" />
 							</div>
-							<img src="../assets/images/clean.jpg" alt="" className="card-img" />
+							<img src="assets/images/clean.jpg" alt="" className="card-img" />
 							<p className="text-capitalize">kitchen cleaning</p>
 						</div>
 					</div>
