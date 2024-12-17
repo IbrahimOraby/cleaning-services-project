@@ -7,6 +7,7 @@ import LatestBlogs from "../components/latest_blogs/LatestBlogs";
 import Slider from "../components/Slider/Slider";
 import Booking from "../components/Booking/Booking";
 import CleaningServices from "../components/Cleaning-Services/CleaningServices";
+import Estimate from "../components/Estimation/Estimate";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <Slider />
       <Booking />
       <CleaningServices />
+      <Estimate />
       <AffordablePricing />
       <WorkingExperts />
       <Specialist />
