@@ -1,14 +1,13 @@
-import React from "react";
 import Aside from "../components/Aside/AsideBlog";
-import '../assets/styles/blog-details.css';
-import man1 from '../assets/images/blog-details/man-1.jpg';
+import "../assets/styles/blog-details.css";
+import man1 from "../assets/images/blog-details/man-1.jpg";
 // import man2 from '../assets/images/blog-details/man-2.jpg';
-import cleaning1 from '../assets/images/blog-details/cleaning1.avif';
-import cleaning2 from '../assets/images/blog-details/cleaning2.avif';
-import blogDetails from '../assets/images/blog-details/blog-details.png';
-import woman1 from '../assets/images/blog-details/woman-1.jpeg';
-import woman2 from '../assets/images/blog-details/woman-2.jpeg';
-import NewsLetter from '../assets/images/Blog/Newsletter.svg'
+import cleaning1 from "../assets/images/blog-details/cleaning1.avif";
+import cleaning2 from "../assets/images/blog-details/cleaning2.avif";
+import blogDetails from "../assets/images/blog-details/blog-details.png";
+import woman1 from "../assets/images/blog-details/woman-1.jpeg";
+import woman2 from "../assets/images/blog-details/woman-2.jpeg";
+import NewsLetter from "../assets/images/Blog/Newsletter.svg";
 
 export default function BlogDetails() {
 	return (
@@ -33,7 +32,12 @@ export default function BlogDetails() {
 							<div>
 								<article>
 									<div className="image">
-										<img src={blogDetails} className="rounded" width="100%" alt="Blog Detail" />
+										<img
+											src={blogDetails}
+											className="rounded"
+											width="100%"
+											alt="Blog Detail"
+										/>
 									</div>
 									<div className="date my-3">
 										<i className="fa-solid fa-calendar-days"></i>
@@ -48,26 +52,47 @@ export default function BlogDetails() {
 											</div>
 											<div className="likes d-flex align-items-center ms-3">
 												<i className="fa-solid fa-heart"></i>
-												<span className="text-dark fw-bolder ms-1">06 Likes</span>
+												<span className="text-dark fw-bolder ms-1">
+													06 Likes
+												</span>
 											</div>
 											<div className="comments d-flex align-items-center ms-3">
 												<i className="fa-solid fa-comment"></i>
-												<span className="text-dark fw-bolder ms-1">02 Comments</span>
+												<span className="text-dark fw-bolder ms-1">
+													02 Comments
+												</span>
 											</div>
 										</div>
 									</header>
 									<hr />
 									<p className="my-3">
-										Cagna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo invery.
+										Cagna aliqua. Ut enim ad minim veniam, quis nostrud
+										exercitation ullamco laboris nisi ut aliquip ex ea commodo
+										consequat. Duis aute irure dolor in reprehenderit in
+										voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+										Excepteur sint occaecat cupidatat non proident, sunt in
+										culpa qui officia deserunt mollit anim id est laborum. Sed
+										ut perspiciatis unde omnis iste natus error sit voluptatem
+										accusantium doloremque laudantium, totam rem aperiam, eaque
+										ipsa quae ab illo invery.
 									</p>
 									<blockquote className="mess w-75 h-75 p-5 ms-5 rounded">
-										<q>Aimply dummy text of the printing and ustryorem Ipsum has been the industry's standard dummy text ever since</q>
+										<q>
+											Aimply dummy text of the printing and ustryorem Ipsum has
+											been the industry's standard dummy text ever since
+										</q>
 										<div className="name position-relative mt-3 ms-2">
 											<span className="ms-4">Jessica Mcdade</span>
 										</div>
 									</blockquote>
 									<p className="my-4">
-										Cagna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus errore.
+										Cagna aliqua. Ut enim ad minim veniam, quis nostrud
+										exercitation ullamco laboris nisi ut aliquip ex ea commodo
+										consequat. Duis aute irure dolor in reprehenderit in
+										voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+										Excepteur sint occaecat cupidatat non proident, sunt in
+										culpa qui officia deserunt mollit anim id est laborum. Sed
+										ut perspiciatis unde omnis iste natus errore.
 									</p>
 									<div className="tags d-flex justify-content-between">
 										<div className="left">
@@ -100,7 +125,13 @@ export default function BlogDetails() {
 													<i className="fa-brands fa-linkedin-in me-2"></i>
 													<i className="fa-brands fa-google-plus-g me-2"></i>
 												</div>
-												<p>Cagna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamcry ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+												<p>
+													Cagna aliqua. Ut enim ad minim veniam, quis nostrud
+													exercitation ullamcry ut aliquip ex ea commodo
+													consequat. Duis aute irure dolor in reprehenderit
+													voluptate velit esse cillum dolore eu fugiat nulla
+													pariatur.
+												</p>
 											</div>
 										</div>
 									</div>
@@ -152,7 +183,11 @@ export default function BlogDetails() {
 													</div>
 													<span>Reply</span>
 												</div>
-												<p className="my-3">Ahen an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.</p>
+												<p className="my-3">
+													Ahen an unknown printer took a galley of type and
+													scrambled it to make a type specimen book. It has
+													survived not only five centuries.
+												</p>
 											</div>
 										</div>
 										<div className="row my-4">
@@ -167,7 +202,11 @@ export default function BlogDetails() {
 													</div>
 													<span>Reply</span>
 												</div>
-												<p className="my-3">Ahen an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.</p>
+												<p className="my-3">
+													Ahen an unknown printer took a galley of type and
+													scrambled it to make a type specimen book. It has
+													survived not only five centuries.
+												</p>
 											</div>
 										</div>
 									</div>
@@ -179,32 +218,60 @@ export default function BlogDetails() {
 										<form action="" className="mt-4">
 											<div className="row">
 												<div className="col-md-6 my-2">
-													<input type="text" className="form-control py-4" placeholder="Name * " name="name" required />
+													<input
+														type="text"
+														className="form-control py-4"
+														placeholder="Name * "
+														name="name"
+														required
+													/>
 												</div>
 												<div className="col-md-6 my-2">
-													<input type="email" className="form-control py-4" placeholder="E-mail *" name="email" required />
+													<input
+														type="email"
+														className="form-control py-4"
+														placeholder="E-mail *"
+														name="email"
+														required
+													/>
 												</div>
 											</div>
 											<div className="row">
 												<div className="col-md-12 my-3">
-													<input type="text" className="form-control py-4" placeholder="Website *" name="web" />
+													<input
+														type="text"
+														className="form-control py-4"
+														placeholder="Website *"
+														name="web"
+													/>
 												</div>
 											</div>
-											<textarea name="comments" placeholder="Comment *" className="form-control py-3" rows="6" required></textarea>
-											<button type="submit" className="py-3 px-5 mt-3 btn">Post Comment</button>
+											<textarea
+												name="comments"
+												placeholder="Comment *"
+												className="form-control py-3"
+												rows="6"
+												required
+											></textarea>
+											<button type="submit" className="py-3 px-5 mt-3 btn">
+												Post Comment
+											</button>
 										</form>
 									</div>
-								</article >
-							</div >
-						</div >
-
+								</article>
+							</div>
+						</div>
 
 						<div className="col-lg-4">
 							<div className="row">
 								<div className="col-md-12">
 									<Aside title="Search">
 										<div className="input-container">
-											<input type="text" placeholder="Type here your topic..." className="input-field p-3" />
+											<input
+												type="text"
+												placeholder="Type here your topic..."
+												className="input-field p-3"
+											/>
 											<i className="fa-solid fa-search search-icon"></i>
 										</div>
 									</Aside>
@@ -212,8 +279,18 @@ export default function BlogDetails() {
 
 								<div className="col-md-12">
 									<Aside title="Categories">
-										<div className="accordion accordion-flush" id="accordionFlushExample">
-											{['Cleaning Tips', 'Green Cleaning', 'Moving Cleaning', 'News', 'Product Reviews', 'Spring Cleaning'].map((category, index) => (
+										<div
+											className="accordion accordion-flush"
+											id="accordionFlushExample"
+										>
+											{[
+												"Cleaning Tips",
+												"Green Cleaning",
+												"Moving Cleaning",
+												"News",
+												"Product Reviews",
+												"Spring Cleaning"
+											].map((category, index) => (
 												<div className="accordion-item" key={index}>
 													<h2 className="accordion-header">
 														<button
@@ -227,8 +304,14 @@ export default function BlogDetails() {
 															{category}
 														</button>
 													</h2>
-													<div id={`flush-collapse${index + 1}`} className="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-														<div className="accordion-body">Placeholder content for {category}.</div>
+													<div
+														id={`flush-collapse${index + 1}`}
+														className="accordion-collapse collapse"
+														data-bs-parent="#accordionFlushExample"
+													>
+														<div className="accordion-body">
+															Placeholder content for {category}.
+														</div>
 													</div>
 												</div>
 											))}
@@ -240,13 +323,19 @@ export default function BlogDetails() {
 									<Aside title="Posts">
 										<ul className="list-group rounded-0">
 											{Array.from({ length: 3 }, (_, index) => (
-												<li className="list-group-item py-3 fw-light h6 border-0" key={index}>
+												<li
+													className="list-group-item py-3 fw-light h6 border-0"
+													key={index}
+												>
 													<div className="date">
 														<span>
-															<i className="fa-regular fa-clock"></i> 24, July, 2019
+															<i className="fa-regular fa-clock"></i> 24, July,
+															2019
 														</span>
 													</div>
-													<h5 className="card-title">Why Clany's a life-saver for my flatshare!</h5>
+													<h5 className="card-title">
+														Why Clany's a life-saver for my flatshare!
+													</h5>
 												</li>
 											))}
 										</ul>
@@ -257,16 +346,28 @@ export default function BlogDetails() {
 									<div className="Aside-form">
 										<div className="text-center">
 											<div>
-												<img src={NewsLetter} alt="Newsletter" className="w-25" />
+												<img
+													src={NewsLetter}
+													alt="Newsletter"
+													className="w-25"
+												/>
 											</div>
 											<div>
 												<h3 className="text-white h5 fw-bolder">Newsletter</h3>
-												<p className="gray py-3">Subscribe us & stay with updates</p>
+												<p className="gray py-3">
+													Subscribe us & stay with updates
+												</p>
 											</div>
 											<div className="input-group">
 												<div>
-													<input type="text" placeholder="Enter your Email" className="input-field py-2" />
-													<button className="btn main-btn py-2 my-2">Subscribe</button>
+													<input
+														type="text"
+														placeholder="Enter your Email"
+														className="input-field py-2"
+													/>
+													<button className="btn main-btn py-2 my-2">
+														Subscribe
+													</button>
 												</div>
 											</div>
 										</div>
@@ -276,8 +377,16 @@ export default function BlogDetails() {
 								<div className="col-md-12">
 									<Aside title="Archives">
 										<ul className="list-group rounded-0">
-											{['January (15)', 'February (15)', 'March (15)', 'More+'].map((archive, index) => (
-												<li className="list-group-item py-3 fw-light h6 border-0" key={index}>
+											{[
+												"January (15)",
+												"February (15)",
+												"March (15)",
+												"More+"
+											].map((archive, index) => (
+												<li
+													className="list-group-item py-3 fw-light h6 border-0"
+													key={index}
+												>
 													{archive}
 												</li>
 											))}
@@ -288,8 +397,19 @@ export default function BlogDetails() {
 								<div className="col-md-12">
 									<Aside title="Tags">
 										<div className="d-flex flex-wrap">
-											{['Cleaner', 'Office Cleaning', 'Glass Cleaning', 'Kitchen Cleaning', 'Apartment Cleaning', 'Floor Cleaning'].map((tag, index) => (
-												<a href="#" className="tag-item badge text-bg-light" key={index}>
+											{[
+												"Cleaner",
+												"Office Cleaning",
+												"Glass Cleaning",
+												"Kitchen Cleaning",
+												"Apartment Cleaning",
+												"Floor Cleaning"
+											].map((tag, index) => (
+												<a
+													href="#"
+													className="tag-item badge text-bg-light"
+													key={index}
+												>
 													{tag}
 												</a>
 											))}
@@ -303,7 +423,11 @@ export default function BlogDetails() {
 					<div className="container pagination mx-auto">
 						<div className="btn-group mx-auto" role="group">
 							{Array.from({ length: 4 }, (_, index) => (
-								<button type="button" className="btn btn-primary rounded-1 mx-1" key={index}>
+								<button
+									type="button"
+									className="btn btn-primary rounded-1 mx-1"
+									key={index}
+								>
 									{index + 1}
 								</button>
 							))}

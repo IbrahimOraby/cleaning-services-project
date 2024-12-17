@@ -1,5 +1,4 @@
 import React from 'react';
-import Aside from '../components/Aside/AsideBlog';
 import { Link } from 'react-router';
 import Card1 from '../assets/images/Blog/Blogs-card-1.jpg';
 import Card2 from '../assets/images/Blog/Blogs-card-2.jpg';
@@ -10,6 +9,7 @@ import Card6 from '../assets/images/Blog/Blogs-card-6.jpg';
 import Card7 from '../assets/images/Blog/Blogs-card-7.jpg';
 import Card8 from '../assets/images/Blog/Blogs-card-8.jpg';
 import Newsletter from '../assets/images/Blog/Newsletter.svg';
+import Aside from '../components/Aside/AsideBlog';
 
 function Blog() {
 
