@@ -25,7 +25,7 @@ function Blog() {
 					<div className="row">
 						<div className="col-lg-8">
 							{/* Blog Cards */}
-							<div className="row">
+							<div className="row blog-card">
 								{Array.from({ length: 8 }, (_, index) => (
 									<div className="col-md-6 mb-4 " key={index}>
 										<Link to={"blog-details"}>
@@ -184,7 +184,7 @@ function Blog() {
 									</div>
 								</div>
 								{/* Archives */}
-								<div className="col-md-12">
+								<div className="col-md-12 archives">
 									<Aside title="Archives">
 										<ul className="list-group rounded-0">
 											{[

@@ -16,7 +16,7 @@ export default function BlogDetails() {
 			{/* <!-- banner --> */}
 			<HeadBanner currPage={"Modern Rules Of Hygienic Cleaning"} />
 
-			<div>
+			<div className="main-cont">
 				<div className="container my-5">
 					<div className="row">
 						<div className="col-lg-8">
