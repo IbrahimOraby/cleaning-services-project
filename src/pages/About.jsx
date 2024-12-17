@@ -168,7 +168,6 @@ function About() {
 							</div>
 						</div>
 						{/* <!-- Column Three --> */}
-
 						<div className="col-12 col-sm-6 col-lg-4 mt-lg-0 mt-4">
 							<div className="card border-0 d-flex align-items-center position-relative">
 								<div className="bubble_img d-none d-lg-block w-100 position-absolute">
