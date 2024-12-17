@@ -19,12 +19,25 @@
 	background-color: var(--main-white);
 
 	.service-info-row {
-		div {
-			border: 0.6rem solid var(--main-white);
+		list-style: none;
+		display: flex;
+		flex-wrap: wrap;
+
+		li {
+			border-block-end: 0.6rem solid var(--main-white);
+			border-inline-end: 0.6rem solid var(--main-white);
+			width: 33%;
+			margin-inline: auto;
 			background-color: #fff;
+			display: flex;
+			flex-direction: column;
+			padding: 1.25rem;
 
 			span:first-child {
 				color: var(--main-paragraph);
+			}
+			span:last-child {
+				color: black;
 			}
 		}
 	}
@@ -163,6 +176,7 @@ aside {
 	p,
 	li {
 		color: var(--main-paragraph);
+		margin: 0;
 	}
 
 	h1,
@@ -170,6 +184,7 @@ aside {
 	h3,
 	h4,
 	h5 {
+		margin: 0;
 		color: var(--primary-blue);
 		font-weight: 700;
 	}

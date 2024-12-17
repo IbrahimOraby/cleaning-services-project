@@ -142,35 +142,39 @@ export default function ServiceDetails() {
 								</div>
 							</section>
 							{/* <!-- service information --> */}
-							<section className="service-info p-5 my-5 rounded-2 row mx-1 mx-sm-0">
-								<h5 className="col-12 heading-border-inline-start ps-3 mb-4">
-									Service Information
-								</h5>
-								<div className="col-12 row service-info-row">
-									<div className="col-lg-4 col-md-6 col-12 d-flex flex-column p-4">
-										<span className="mb-2">Price :</span>
-										<span>$150.00</span>
+							<section className="service-info p-5 my-5 rounded-2 mx-1 mx-sm-0">
+								<div className="d-flex flex-column justify-content-center">
+									<div className=" ps-0 mb-4">
+										<h5 className=" heading-border-inline-start ps-3 ">
+											Service Information
+										</h5>
 									</div>
-									<div className="col-lg-4 col-md-6 col-12 d-flex flex-column p-4">
-										<span className="mb-2">Cleaning Hours :</span>
-										<span>1-3 Hours</span>
-									</div>
-									<div className="col-lg-4 col-md-6 col-12 d-flex flex-column p-4">
-										<span className="mb-2">Number of Cleaners :</span>
-										<span>02 Cleaner</span>
-									</div>
-									<div className="col-lg-4 col-md-6 col-12 d-flex flex-column p-4">
-										<span className="mb-2">Visiting Hours :</span>
-										<span>09.00am - 06.00pm</span>
-									</div>
-									<div className="col-lg-4 col-md-6 col-12 d-flex flex-column p-4">
-										<span className="mb-2">Contact :</span>
-										<span>+88 9504200</span>
-									</div>
-									<div className="col-lg-4 col-md-6 col-12 d-flex flex-column p-4">
-										<span className="mb-2">E-mail :</span>
-										<span>info@clenix.com</span>
-									</div>
+									<ul className="service-info-row  px-0">
+										<li className="">
+											<span className="mb-2">Price</span>
+											<span>$150.00</span>
+										</li>
+										<li className="">
+											<span className="mb-2">Cleaning Hours</span>
+											<span>1-3 Hours</span>
+										</li>
+										<li className="">
+											<span className="mb-2">Number of Cleaners</span>
+											<span>02 Cleaner</span>
+										</li>
+										<li className="">
+											<span className="mb-2">Visiting Hours</span>
+											<span>09.00am - 06.00pm</span>
+										</li>
+										<li className="">
+											<span className="mb-2">Contact</span>
+											<span>+88 9504200</span>
+										</li>
+										<li className="">
+											<span className="mb-2">E-mail</span>
+											<span>info@clenix.com</span>
+										</li>
+									</ul>
 								</div>
 							</section>
 
