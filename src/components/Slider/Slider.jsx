@@ -15,7 +15,7 @@ const Slider = () => {
                             <div className="overlaying"></div>
                         </div>
                         <div
-                            className="carousel-caption d-flex align-items-center justify-content-center top-50 start-0 translate-middle-y text-center">
+                            className="carousel-caption d-flex align-items-center justify-content-center top-50 translate-middle-y text-center">
                             <div className="Colors d-flex flex-column align-items-center justify-content-center w-50">
                                 <p className="first-p sub-heading">The Best Cleaning Service Ever!</p>
                                 <h1 className="heading">Certified Company</h1>
@@ -34,7 +34,7 @@ const Slider = () => {
                             <div className="overlaying"></div>
                         </div>
                         <div
-                            className="carousel-caption d-flex align-items-center justify-content-center top-50 start-0 translate-middle-y text-center">
+                            className="carousel-caption d-flex align-items-center justify-content-center top-50 translate-middle-y text-center">
                             <div className="Colors d-flex flex-column align-items-center justify-content-center w-50">
                                 <p className="first-p sub-heading">The Best Cleaning Service Ever!</p>
                                 <h1 className="heading">Certified Company</h1>
