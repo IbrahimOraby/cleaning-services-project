@@ -9,15 +9,19 @@ import Booking from "../components/Booking/Booking";
 import CleaningServices from "../components/Cleaning-Services/CleaningServices";
 import Estimate from "../components/Estimation/Estimate";
 import RequstingEstimation from "../components/RequstingEstimation/RequstingEstimation";
+import ReadMore from "../components/ReadMore/ReadMore";
 
 export default function Home() {
   return (
     <>
+      {/* Ahmed Amin */}
       <Slider />
       <Booking />
       <CleaningServices />
       <Estimate />
       <RequstingEstimation />
+      <ReadMore />
+      {/* Mohamed Morsy */}
       <AffordablePricing />
       <WorkingExperts />
       <Specialist />
