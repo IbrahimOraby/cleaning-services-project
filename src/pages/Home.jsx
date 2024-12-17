@@ -6,12 +6,14 @@ import FeedBack from "../components/feedback/FeedBack";
 import LatestBlogs from "../components/latest_blogs/LatestBlogs";
 import Slider from "../components/Slider/Slider";
 import Booking from "../components/Booking/Booking";
+import CleaningServices from "../components/Cleaning-Services/CleaningServices";
 
 export default function Home() {
   return (
     <>
       <Slider />
       <Booking />
+      <CleaningServices />
       <AffordablePricing />
       <WorkingExperts />
       <Specialist />
