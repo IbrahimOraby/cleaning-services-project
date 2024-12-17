@@ -1,29 +1,18 @@
 import React from "react";
-import Button from "react-bootstrap/Button";
-import Modal from "react-bootstrap/Modal";
+import AffordablePricing from "../components/AffordablePricing";
+import WorkingExperts from "../components/working_experts/WorkingExperts";
+import Specialist from "../components/Specialist";
+import FeedBack from "../components/feedback/FeedBack";
+import LatestBlogs from "../components/latest_blogs/LatestBlogs";
 
 export default function Home() {
-	return (
-		<div>
-			<div
-				className="modal show"
-				style={{ display: "block", position: "initial" }}
-			>
-				<Modal.Dialog>
-					<Modal.Header closeButton>
-						<Modal.Title>Modal title</Modal.Title>
-					</Modal.Header>
-
-					<Modal.Body>
-						<p>Modal body text goes here.</p>
-					</Modal.Body>
-
-					<Modal.Footer>
-						<Button variant="secondary">Close</Button>
-						<Button variant="primary">Save changes</Button>
-					</Modal.Footer>
-				</Modal.Dialog>
-			</div>
-		</div>
-	);
+  return (
+    <>
+      <AffordablePricing />
+      <WorkingExperts />
+      <Specialist />
+      <FeedBack />
+      <LatestBlogs />
+    </>
+  );
 }
