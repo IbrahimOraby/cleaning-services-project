@@ -1,16 +1,15 @@
-import React from "react";
-import { BrowserRouter, Routes, Route } from "react-router";
-import Layout from "./components/Layout";
-import Home from "./pages/Home"
-import Blog from "./pages/Blog";
-import Services from "./pages/Services";
-import About from "./pages/About";
-import BlogDetails from "./pages/BlogDetails";
-import ServiceDetails from "./pages/ServiceDetails";
-import Contact from "./pages/Contact";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
+import { BrowserRouter, Route, Routes } from "react-router";
+import Layout from "./components/Layout";
 import "./index.css";
+import About from "./pages/About";
+import Blog from "./pages/Blog";
+import BlogDetails from "./pages/BlogDetails";
+import Contact from "./pages/Contact";
+import Home from "./pages/Home";
+import ServiceDetails from "./pages/ServiceDetails";
+import Services from "./pages/Services";
 
 export default function App() {
 	return (

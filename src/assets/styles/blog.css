@@ -3,6 +3,7 @@
 @import url(./service-details.css);
 
 /* ------------------- Color Classes ------------------- */
+
 .gray {
 	color: var(--main-gray);
 }
@@ -36,12 +37,18 @@ Link {
 }
 
 /* ------------------- Container Styles ------------------- */
+
 .container {
 	max-width: 80% !important;
 }
 
 /* ------------------- Card Styles ------------------- */
 .card {
+	background: var(--main-white);
+	overflow: hidden;
+	border: 0 !important;
+	cursor: pointer;
+	padding-bottom: 0 !important;
 	background: var(--main-white);
 	overflow: hidden;
 	border: 0 !important;
@@ -101,6 +108,12 @@ Link {
 }
 
 .card-footer {
+	background: var(--main-white);
+	margin-top: 0.2rem;
+	padding-top: 1.3rem;
+	font-size: 0.8rem;
+	display: flex;
+	justify-content: space-between;
 	background: var(--main-white);
 	margin-top: 0.2rem;
 	padding-top: 1.3rem;
@@ -191,6 +204,11 @@ Link {
 	box-shadow: none !important;
 	background-color: var(--main-white) !important;
 	border-bottom: 2px solid var(--secondary-blue) !important;
+	border: none !important;
+	outline: none !important;
+	box-shadow: none !important;
+	background-color: var(--main-white) !important;
+	border-bottom: 2px solid var(--secondary-blue) !important;
 }
 
 .accordion-button::after {
@@ -228,7 +246,6 @@ Link {
 	font-size: 12px;
 	font-weight: bold;
 }
-
 .list-group-item h5 {
 	font-size: 16px;
 	font-weight: bold;
@@ -252,9 +269,9 @@ Link {
 
 /* -------Archive--------- */
 
-/* .list-group span {
+.list-group span {
 	color: var(--main-gray);
-} */
+}
 
 .list-group-item {
 	margin-bottom: 2px;
@@ -263,6 +280,13 @@ Link {
 /*-----------Tags-----------*/
 
 .tag-item {
+	text-decoration: none;
+	font-size: 14px;
+	padding: 10px;
+	margin: 2px;
+	font-weight: 300;
+	background-color: #fff !important;
+	transition: all 0.3s ease;
 	text-decoration: none;
 	font-size: 14px;
 	padding: 10px;
