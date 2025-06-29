@@ -1,6 +1,6 @@
 import Aside from "../components/Aside/AsideBlog";
 import "../assets/styles/blog-details.css";
-import man1 from "../assets/images/blog-details/man-1.jpg";
+import man1 from "../assets/images/blog-details/man.jpg";
 import cleaning1 from "../assets/images/blog-details/cleaning1.avif";
 import cleaning2 from "../assets/images/blog-details/cleaning2.avif";
 import woman1 from "../assets/images/blog-details/woman-1.jpeg";
