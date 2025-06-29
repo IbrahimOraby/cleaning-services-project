@@ -1,6 +1,6 @@
 # Cleaning Services Website  
 
-This repository hosts the website for our cleaning services project. The **level-one branch** contains the latest UX updates and is the branch to use for running the website during development or review. The **main branch** is reserved for stable, production-ready versions of the site.  
+This repository hosts the website for our cleaning services project. The **level-two-redux branch** contains the latest UX updates and is the branch to use for running the website during development or review. The **main branch** is reserved for stable, production-ready versions of the site.  
 
 ## Requirements  
 To run the website locally, you will need:  
