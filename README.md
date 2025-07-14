@@ -22,15 +22,15 @@ To run the website locally, you will need:
    ```bash
    git fetch origin
    ```
-   -  Switch to the level-one branch:
+   -  Switch to the level-two-redux branch:
        
    ```bash
-   git checkout level-one
+   git checkout level-two-redux
    ```
-   -  Pull the latest updates from the levelone branch:
+   -  Pull the latest updates from the level-two-redux branch:
      
    ```bash
-   git pull origin level-one
+   git pull origin level-two-redux
    ```
    
 3. **To view the website, use a live server**
